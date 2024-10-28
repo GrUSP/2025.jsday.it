@@ -11,9 +11,9 @@ theme: "grusp_conf"
 # Site / OG
 type: website
 slug: jsday
-edition: 2023
-title: "jsday 2023"
-description: "jsday 2023, international JavaScript conference in Verona (Italy)"
+edition: 2025
+title: "jsday 2025"
+description: "jsday 2025, international JavaScript conference in Bologna (Italy)"
 #   separate keywords by comma, no spaces
 keywords: conference,software conference,js,javascript,tech conference,community conference
 author: GrUSP
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2023.jsday.it/
+url: https://2025.jsday.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

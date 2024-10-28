@@ -23,17 +23,17 @@ conference:
   contact_email: "jsday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "jsday 2023"
-  city: "Verona"
-  date: 2023-04-13T09:00+02:00
+  title: "jsday 2025"
+  city: "Bologna"
+  date: 2025-04-07T09:00+02:00
   # Use the next field to override the date in the hero
-  hero_date_text: 13 and 14 April 2023
+  hero_date_text: 7 and 8 April 2025
   countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
   countdown_minutes: "minutes"
   countdown_seconds: "seconds"
-  ticket_button_visible: true
+  ticket_button_visible: false
   hero_buy_tickets_label: "Get your ticket"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
@@ -41,24 +41,24 @@ conference:
   update_visible: false
   update_is_warning: false
   update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_title: "jsday 2025 will be held in Bologna, Italy"
+  update_description: "This year, jsday is heading to the city of Bologna, aiming to make the event even more rewarding and enjoyable!"
+  update_link_url: "http://2025.jsday.it/welcome/where.html"
+  update_link_label: "Directions"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
-  cfp_readmore_label: "Read more and apply"
+  cfp_open: true
+  cfp_readmore_label: "Apply now!"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2023-01-31
+  cfp_deadline: 2024-11-30
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "jsday 2023 is the 12th edition of the Italian JavaScript conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a>, <a href='https://www.reactjsday.it/'>reactjsday</a> and many others.
-  <br> <br /> The event is international and all sessions will be in English. This 2023 edition is taking place in Verona, and will last 2 days (13th and 14th April)
-  <br> <br /> On the day before the conference, we are hosting a <a href='https://2023.jsday.it/workshop/fastify_course.html'>workshop on Fastify</a> with Matteo Collina (tickets are sold separately)."
+  geninfo_description: "jsday 2025 marks the 14th edition of Italy’s premier JavaScript conference, a key event for developers and tech enthusiasts eager to explore the latest in JavaScript trends, tools, and best practices. <br> <br />Organized by <a href='https://www.grusp.org' target=_blank>GrUSP</a>, the team behind major industry events such as <a href='https://www.phpday.it' target=_blank>phpday</a>, <a href='https://www.reactjsday.it' target=_blank>reactjsday</a>, and several others, jsday continues its tradition of bringing together experts and innovators from around the world for two days of insightful talks, workshops, and networking opportunities.
+  <br> <br /> <b>This year, jsday is heading to the city of Bologna, aiming to make the event even more rewarding and enjoyable! The conference will last 2 days: 7th and 8th April 2025!</b>"
+  # <br> <br /> On the day before the conference, we are hosting a <a href='https://2023.jsday.it/workshop/fastify_course.html'>workshop on Fastify</a> with Matteo Collina (tickets are sold separately)."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -89,7 +89,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text: ""
@@ -113,17 +113,17 @@ conference:
     - "Lambda"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Buy tickets"
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_visible: true
+  media_pic_1: "jsday23-1.jpg"
+  media_pic_2: "jsday2024.jpg"
+  media_pic_3: "lanyard.jpg"
+  media_pic_4: "jsday23-2.jpg" 
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: false
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -137,18 +137,18 @@ conference:
   vimeo_showcase_id: "8639312"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
   location_visible: true
-  location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
-  location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+  location_name: "Hotel Savoia Regency"
+  location_address: "Via del Pilastro, 2, 40127 Bologna BO, Italy"
+  location_maps_url: "https://www.google.it/maps/place/Hotel+Savoia+Regency/@44.5098574,11.3824096,17z/data=!4m9!3m8!1s0x477e2ca643db29ab:0x19c877e26a7b7526!5m2!4m1!1i2!8m2!3d44.5098536!4d11.3849845!16s%2Fg%2F1tdgt70_?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Thanks to our amazing sponsors"
   # this is for the Community partners section in home page
-  community_partners: true
+  community_partners: false
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
@@ -178,6 +178,8 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
+    2024: "2024"   
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
@@ -203,4 +205,4 @@ conference:
     tag_manager_id: " GTM-M4L8PSK"
   # Tito tickets
   tito:
-    event: grusp/jsday-2024
+    event: grusp/jsday-2025
