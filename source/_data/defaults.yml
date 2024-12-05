@@ -46,7 +46,7 @@ conference:
   update_link_url: "http://2025.jsday.it/welcome/where.html"
   update_link_label: "Directions"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Apply now!"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
@@ -89,10 +89,10 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: false
+  speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: ""
+  speaker_count_text: "CFP is closed and we are evaluating the talks. The confirmed talks will be published soon!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
@@ -123,16 +123,16 @@ conference:
   media_pic_1: "jsday23-1.jpg"
   media_pic_2: "jsday2024.jpg"
   media_pic_3: "lanyard.jpg"
-  media_pic_4: "jsday23-2.jpg" 
+  media_pic_4: "jsday23-2.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: false
+  media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
-  media_video_is_youtube: false
+  media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
   vimeo_base_url: "https://vimeo.com/showcase/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unkLg4R7_tnIfoyi0Wr-QPkD"
+  youtube_playlist_id: "PLWK9j6ps_unmh6M1O1LNFIQ2lUYbKbOqE&si=vEYjpKTPTX-7BaOW"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "8639312"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -141,7 +141,7 @@ conference:
   location_address: "Via del Pilastro, 2, 40127 Bologna BO, Italy"
   location_maps_url: "https://www.google.it/maps/place/Hotel+Savoia+Regency/@44.5098574,11.3824096,17z/data=!4m9!3m8!1s0x477e2ca643db29ab:0x19c877e26a7b7526!5m2!4m1!1i2!8m2!3d44.5098536!4d11.3849845!16s%2Fg%2F1tdgt70_?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"
   location_maps_label: "Get directions"
-  location_readmore_label: "Read more"
+  location_readmore_label: "New Venue! Read more..."
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -179,7 +179,7 @@ conference:
     2021: "2021"
     2022: "2022"
     2023: "2023"
-    2024: "2024"   
+    2024: "2024"
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
