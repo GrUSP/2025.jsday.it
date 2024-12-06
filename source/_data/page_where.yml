@@ -1,15 +1,30 @@
 header:
   title_pre: "Let's meet in "
 intro:
-  main_title: "Where"
-  content_1: "The conference is hybrid: it takes place in person in Bologna (Italy) and it is also possible to participate online.<br /> "
+  main_title: "jsday has a new home!"
+  content_1: "
+    <p>
+        This year, <strong>jsday</strong> is heading to <strong>Bologna</strong>, 
+        hosted in the prestigious <strong>Hotel Savoia Regency</strong>. A larger, 
+        modern, and welcoming venue, perfect for bringing together JavaScript enthusiasts 
+        from near and far.
+    </p>
+    <p>
+        Why Bologna? Strategically located and easily accessible from all over Italy, Bologna is not only 
+        a city rich in history and charm but also the perfect place to connect and innovate.
+    </p>
+    <p>
+        What to expect? A more ambitious event, immersive experiences, and the same passion as always, with 
+        one goal: to make <strong>jsday</strong> an unforgettable experience for everyone attending.
+    </p>"
   content_2: ""
 city_info:
-  title: "How it works"
-  subtitle_1: "In-person event"
-  description_1: "Access to the physical event will be subject to current COVID-19 regulation, like use of masks and spacings. For more information about our safety policies, <a href='https://www.grusp.org/en/conferences_/safety/'>visit this page on the GrUSP website.</a>"
-  subtitle_2: "Online event"
-  description_2: "Access to the online event only (live broadcast of the conference) can be purchased separately."
+  title: "The city of Bologna"
+  subtitle_1: "A vibrant city!"
+  description_1: "<p>The new location for jsday 2025 is the vibrant city of Bologna—an epicenter of creativity and energy. Strategically located, Bologna is easily accessible by plane, car, or train from anywhere in Europe.</p> Bologna is renowned for its rich cultural heritage, medieval architecture, and vibrant culinary scene. Home to the oldest university in the world, the University of Bologna, established in 1088, the city exudes academic prestige. Its well-preserved medieval center features iconic landmarks like the Two Towers, Asinelli and Garisenda, and the expansive Piazza Maggiore. Bologna's porticoes, extending over 38 kilometers, provide sheltered walkways throughout the city. The city is also famous for its gastronomic delights, including traditional dishes like tagliatelle al ragù and tortellini. Bologna harmoniously blends historical charm with dynamic modernity."
+  subtitle_2: "The new venue!"
+  description_2: "<p>The venue is the prestigious Hotel Savoia Regency, a trusted host for numerous GrUSP conferences, and the ideal setting for jsday. Featuring a spacious auditorium ready to welcome hundreds of attendees, a stunning sponsor hall, and dedicated spaces for coffee breaks and lunch, it offers everything needed for a seamless event experience.</p>
+    <p>This carefully curated combination promises to make this edition of jsday truly unforgettable!</p>"
 map:
   title: "Location"
   map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.258545295926!2d11.38279581512847!3d44.509857404631944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e2ca643db29ab%3A0x19c877e26a7b7526!2sHotel%20Savoia%20Regency!5e0!3m2!1sit!2sit!4v1638894573435!5m2!1sit!2sit"

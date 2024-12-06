@@ -22,7 +22,7 @@ workshop_submenu:
 welcome_submenu:
   about: about
   coc: code of conduct
-  safety: health and safety
+  # safety: health and safety
   scholarships: scholarships
   where: where
   # delete this row to take out of the menu

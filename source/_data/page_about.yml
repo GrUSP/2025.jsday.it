@@ -15,7 +15,7 @@ more:
   content_2:
 past_edition:
   title: "Browse past editions of jsday"
-  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unmh6M1O1LNFIQ2lUYbKbOqE&si=vEYjpKTPTX-7BaOW"
+  video_url: "https://www.youtube.com/embed/videoseries?si=-2-LLefTu4UqGFzG&amp;list=PLWK9j6ps_unnrdGTfnmjQ4T65o0jAyrVO"
   video_caption: "Watch the videos from the past edition"
 team:
   title: "Our team"
@@ -29,9 +29,13 @@ team:
       name: "Cristina Chesini"
       role: "Training Manager"
       pic_filename: "cristina_yellow.jpg"
+    member_12:
+      name: "Alessandro 'Cirpo' Cinelli"
+      role: "Technical Committee"
+      pic_filename: "cirpo_yellow.jpg"
     member_3:
       name: "Cesare D'Amico"
-      role: "GrUSP founder & Board Member"
+      role: "GrUSP Founder & Board Member"
       pic_filename: "cesare_yellow.jpg"
     member_4:
       name: "Giovanna Ferrari"
@@ -39,24 +43,20 @@ team:
       pic_filename: "giovanna_yellow.jpg"
     member_5:
       name: "Giorgio Fochesato"
-      role: "Community manager"
+      role: "Community Manager"
       pic_filename: "giorgio_yellow.jpg"
     member_6:
       name: "Francesco Fullone"
-      role: "Trouble maker"
+      role: "Troublemaker"
       pic_filename: "fullo_yellow.jpg"
     member_7:
       name: "Lara Lombardi"
-      role: "Marketing manager"
+      role: "Marketing Manager"
       pic_filename: "lara_yellow.jpg"
     member_8:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
       pic_filename: "daniel_yellow.jpg"
-    member_9:
-      name: "Francesco Mancin"
-      role: "Regia e Video"
-      pic_filename: "francesco_yellow.jpg"
     member_10:
       name: "Giulia Tosato"
       role: "Event Manager"

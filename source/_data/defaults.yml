@@ -92,7 +92,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: "CFP is closed and we are evaluating the talks. The confirmed talks will be published soon!"
+  speaker_count_text: "The Call for Papers is now closed, and we are currently reviewing the submissions. Stay tuned—confirmed talks will be announced soon!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
