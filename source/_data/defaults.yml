@@ -200,7 +200,7 @@ conference:
   footer_coc_link_label: "code of conduct"
   # Google Tag Manager
   google:
-    tag_manager_id: " GTM-M4L8PSK"
+    tag_manager_id: "GTM-M4L8PSK"
   # Tito tickets
   tito:
     event: grusp/jsday-2025
