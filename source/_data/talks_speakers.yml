@@ -108,6 +108,19 @@ speaker_8: &DanielDanielecki
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_9: &MarcoIppolito
+  speaker_in_speaker_lists: true
+  speaker_name: "Marco Ippolito"
+  speaker_pic_filename: "marco-ippolito.png"
+  speaker_role: "Senior Security Engineer @ HeroDevs | Node.js TSC"
+  speaker_bio: "I'm a Senior Security Engineer at HeroDevs. <br />Active contributor, releaser, and member of the Node.js Technical Steering Committee, I'm a renowned international speaker and a Microsoft MVP. <br /> I'm actively involved in many projects within the Node.js ecosystem and also serves as a delegate in TC39."
+  speaker_github_url: "https://github.com/marco-ippolito"
+  speaker_twitter_url: "https://twitter.com/satanacchio"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/marcoippolito2021/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
@@ -117,6 +130,7 @@ speakers:
   speaker_6: *EmmaDawson
   speaker_7: *MassimilianoMantione
   speaker_8: *DanielDanielecki
+  speaker_9: *MarcoIppolito
 
 tracks:
   track_1: &track_1
@@ -265,3 +279,14 @@ days:
         talk_video_url:
         speakers:
           speaker_8: *DanielDanielecki
+
+      ThePathToNativeTypeScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The Path to Native TypeScript"
+        talk_description: 'Imagine the convenience of executing TypeScript files directly with Node.js using "node file.ts". <br />Just a few years ago, this concept seemed like a distant dream. <br />Today, it stands as an exciting experimental feature. <br />This narrative dives into the journey of transforming this dream into a reality.<br /><br />Integrating TypeScript natively into Node.js posed significant challenges. These hurdles included managing TypeScript''s lack of strict semantic versioning guarantees and accommodating various TS flavors.<br /><br />Today, the experimental native TypeScript support in Node.js marks a transformative milestone. Beyond merely executing .ts files, it signifies a leap forward in JavaScript development.'
+        talk_video_url:
+        speakers:
+          speaker_9: *MarcoIppolito
