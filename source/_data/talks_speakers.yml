@@ -232,9 +232,9 @@ days:
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "The Cost of Abstractions"
         talk_description: >-
-          As programmers we use abstractions all the time, but do we ever care about their costs?
-          And what does it even mean for an abstraction to have a *cost*?
-          In this talk, we'll explore different abstractions available to Javascript developers and their impact on developer productivity, team health, and application runtime behavior.
+          As programmers we use abstractions all the time, but do we ever care about their costs? <br />
+          And what does it even mean for an abstraction to have a *cost*? <br />
+          In this talk, we'll explore different abstractions available to Javascript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
           While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
         talk_video_url:
         speakers:
