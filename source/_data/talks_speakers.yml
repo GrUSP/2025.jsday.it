@@ -121,6 +121,19 @@ speaker_9: &MarcoIppolito
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_10: &MassimoArtizzu
+  speaker_in_speaker_lists: true
+  speaker_name: "Massimo Artizzu"
+  speaker_pic_filename: "massimo-artizzu.jpg"
+  speaker_role: "Software Engineer @ WorkWave"
+  speaker_bio: "Professionally grown when the Web was split among Internet Explorer, Netscape Navigator and... Macromedia Flash, I've always been passionate about JavaScript, CSS, HTML, web standards and the evolution of the platform. <br />I firmly believe that libraries and frameworks come and go, but only the Web will remain. <br />Please stop me if I'm talking about CSS for too long."
+  speaker_github_url: "https://github.com/MaxArt2501"
+  speaker_twitter_url: "https://twitter.com/MaxArt2501"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/massimoartizzu/"
+  speaker_mastodon_url: "https://mastodon.social/@MaxArt2501"
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
@@ -131,6 +144,7 @@ speakers:
   speaker_7: *MassimilianoMantione
   speaker_8: *DanielDanielecki
   speaker_9: *MarcoIppolito
+  speaker_10: *MassimoArtizzu
 
 tracks:
   track_1: &track_1
@@ -290,3 +304,17 @@ days:
         talk_video_url:
         speakers:
           speaker_9: *MarcoIppolito
+
+      JavaScriptIsAnOddball:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "JavaScript is an Oddball"
+        talk_description: >-
+          If you're a web developer, JavaScript is probably the language you're using the most. But it's also a language that never ceases to gives us surprises. How many times did we say "Huh, so it behaves like that!", or "I didn't know that API existed!", or just "This is so weird..."
+          <br /><br />And it's just that: JavaScript is weird. Being the language itself, with its quirkiness thoroughly examined in many occasions; or in the case of weird, less-known, or just DOM APIs with unusual signatures and implementations. But maybe some of these techniques, which could have been common knowledge, are still useful today and could solve our day-to-day problems.
+          <br /><br />Just don't use them in production! Not for now, at least..."
+        talk_video_url:
+        speakers:
+          speaker_10: *MassimoArtizzu
