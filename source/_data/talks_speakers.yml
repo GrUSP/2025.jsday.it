@@ -30,9 +30,24 @@ speaker_2: &MatteoRonchi
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_3: &MaximSalnikov
+  speaker_in_speaker_lists: true
+  speaker_name: "Maxim Salnikov"
+  speaker_pic_filename: "maxim-salnikov.jpg"
+  speaker_role: "Developer Productivity Lead @ Microsoft"
+  speaker_bio: "I'm a tech and cloud community enthusiast based in Oslo. <br />With over two decades of experience as a web developer, I share my extensive knowledge of the web platform, cloud computing, and AI by speaking at and providing training for developer events worldwide. <br /> <br />By day, I play a crucial role in supporting the development of cloud and AI solutions within European companies, serving as the leader of developer productivity business at Microsoft. During evenings, I can be found running events for Norway's largest web and cloud development communities. <br /> <br />I'm passionate about exploring and experimenting with Generative AI possibilities, including AI-assisted development. <br /> <br />To share my insights and connect with like-minded professionals globally, I founded and organized the inaugural Prompt Engineering Conference, the first of its kind on a global scale."
+  speaker_github_url: "https://www.github.com/webmaxru"
+  speaker_twitter_url: "https://www.twitter.com/webmaxru"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/webmax/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
+  speaker_3: *MaximSalnikov
+
 tracks:
   track_1: &track_1
     id: 1
@@ -103,3 +118,21 @@ days:
         speakers:
           speaker_1: *StefanoMagni
           speaker_2: *MatteoRonchi
+
+      PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Privacy-first in-browser Generative AI web apps: offline-ready, future-proof, standards-based"
+        talk_description: >-
+          Powerful generative AI features are quickly becoming a baseline in modern development.<br /> 
+          Potential blockers include privacy concerns, the need for a stable connection, and the costs 
+          associated with using or hosting models. However, we can now leverage generative AI directly 
+          in the browser on the user's device using emerging Web APIs like WebNN, combined with 
+          higher-level frameworks, for a better developer experience.<br /><br />In my session, I'll 
+          discuss the current state of in-browser ML and AI features, compare the main players, and 
+          show you how to start building an offline-ready, future-proof, standards-based web application.
+        talk_video_url:
+        speakers:
+          speaker_1: *MaximSalnikov
