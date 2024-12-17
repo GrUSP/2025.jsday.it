@@ -4,22 +4,35 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &StefanoMagni
+  speaker_in_speaker_lists: true
+  speaker_name: "Stefano Magnini"
+  speaker_pic_filename: "stefano-magni.jpg"
+  speaker_role: "Senior Front-end Engineer @ Preply"
+  speaker_bio: "I'm a senior front-end engineer, speaker, instructor, and former Cypress Ambassador. <br />I like to improve the quality of the products I work on, take care of Developer Experience, help other developers grow, and write lasting code.<br />In my career, I have developed different types of interfaces: games, configurators, drawing apps, responsive sites, mobile applications, backoffices, and recently I have focused on large codebases with React, TypeScript and their entire ecosystem and Design Systems.<br />I enjoy sharing my experience by writing articles, speaking at conferences, and teaching how to test your frontend applications.<br />At both Hasura and Preply, I am part of the platform team."
+  speaker_github_url: "https://github.com/NoriSte"
+  speaker_twitter_url: "https://twitter.com/NoriSte"
   speaker_instagram_url: ""
-  speaker_linkedin_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/noriste/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_2: &MatteoRonchi
+  speaker_in_speaker_lists: true
+  speaker_name: "Matteo Ronchi"
+  speaker_pic_filename: "matteo-ronchi.jpg"
+  speaker_role: "Frontend Architect @ WorkWave"
+  speaker_bio: "I've been working on Human-Machine interactions since 2000. My expertise is predominantly in building user interfaces. <br />I started creating non-digital art (photography and painting) and moved into 3D modeling and interactive experiences. <br />Since then, I have focused on UI architecture at scale, working as a freelance and employee for many companies. <br />In the last few years, I've been working at WorkWave, leading the development of our UI design system and DX tools for front-end developers."
+  speaker_github_url: "https://github.com/cef62"
+  speaker_twitter_url: "https://x.com/cef62"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/matteoronchi/"
   speaker_mastodon_url: ""
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
-
+  speaker_1: *StefanoMagni
+  speaker_2: *MatteoRonchi
 tracks:
   track_1: &track_1
     id: 1
@@ -44,7 +57,7 @@ days:
     date: 2021-07-06T09:45+02:00
     title: "Day 1"
     talks:
-    # service
+      # service
       opening:
         item_type: "service"
         start_datetime: 2021-07-06T09:45+02:00
@@ -69,23 +82,24 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2022-05-19T09:30+02:00
+      #   end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Design System Visual Coverage in web and app (React Native) applications"
+        talk_description: "The need to show how much the Design System empowers our customers' interactions makes us color and count pixels straight in the browser instead of following a more typical static analysis approach.<br /><br />The desire to be independent of product teams and their always-packed OKRs leads us to count pixels in production when customers interact with the product.<br /><br />The requirement to not impact our customers' UX even if they use feature phones drives us to idle callbacks and web workers and consult a former Google Chrome engineer to lower the memory footprint as much as possible.<br /><br />Doing the same for React Native required more shenanigans (it's harder to inspect the rendered tree in a Mobile environment), and a safer approach, but it's also working!<br /><br />We will present our experience to show engineers and company leaders the measurable value of the Design System in our products. This approach works well for Preply (a B2C language learning portal) and WorkWave (B2B field service software), and other companies are approaching the topic the same way."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *StefanoMagni
+          speaker_2: *MatteoRonchi
