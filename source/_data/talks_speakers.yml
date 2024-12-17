@@ -43,11 +43,24 @@ speaker_3: &MaximSalnikov
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_4: &MałgorzataJaneczek
+  speaker_in_speaker_lists: true
+  speaker_name: "Małgorzata Janeczek"
+  speaker_pic_filename: "malgorzata-janeczek.png"
+  speaker_role: "Senior Full-Stack Developer @ Sector Alarm IT"
+  speaker_bio: "Hi! I am Gosia, but some people know me as a mom, a daughter, some as friend, others coworker, but for some, I am just “ey, you!”. A few years back I graduated from Automatic Control and Robotics, and soon after starting my job in that field, I knew... it's not for me. So I started looking for something new. Then.. it hit me how cool was programming during my studies, so HERE I AM!<br /><br />For quite a few years now I have been working as a full-stack developer with .NET and React (and knockout, Angular JavaScript..). However, recently I have been feeling a growing passion and interest in DevOps too. I am only beginning my DevOps journey, but I am facing some exciting challenges. <br /><br />At the times when I am not coding, you will probably find me either playing with our little one, in my cave painting or trying to play piano."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/mjaneczek/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
   speaker_3: *MaximSalnikov
-
+  speaker_4: *MałgorzataJaneczek
 tracks:
   track_1: &track_1
     id: 1
@@ -119,8 +132,8 @@ days:
           speaker_1: *StefanoMagni
           speaker_2: *MatteoRonchi
 
-      PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased:
-        item_type: "talk"
+      ? PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased
+      : item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
@@ -136,3 +149,14 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *MaximSalnikov
+
+      JavaScriptIsWeirdMythBustersSpecial:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "JavaScript is weird. MythBusters special."
+        talk_description: "In the era of Instagram, TikTok and YouTube it’s easy to get lost in reels and shorts telling you tons of different things from the earth being flat, through tarot readings changing your life to JavaScript being weird. But is this really so? <br /><br />Let’s break some popular cases down together and see if JavaScript really is weird or maybe it’s just a myth getting more and more popular?"
+        talk_video_url:
+        speakers:
+          speaker_1: *MałgorzataJaneczek
