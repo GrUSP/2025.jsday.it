@@ -95,6 +95,19 @@ speaker_7: &MassimilianoMantione
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_8: &DanielDanielecki
+  speaker_in_speaker_lists: true
+  speaker_name: "Daniel Danielecki"
+  speaker_pic_filename: "daniel-danielecki.jpg"
+  speaker_role: "Senior Frontend Engineer @ ABN AMRO"
+  speaker_bio: "I'm a Frontend and Mobile (React Native) developer working with Cloud/Serverless solutions."
+  speaker_github_url: "https://github.com/danieldanielecki"
+  speaker_twitter_url: "https://twitter.com/ddanielecki"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/danieldanielecki/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
@@ -103,6 +116,8 @@ speakers:
   speaker_5: *RamonaDomen
   speaker_6: *EmmaDawson
   speaker_7: *MassimilianoMantione
+  speaker_8: *DanielDanielecki
+
 tracks:
   track_1: &track_1
     id: 1
@@ -239,3 +254,14 @@ days:
         talk_video_url:
         speakers:
           speaker_7: *MassimilianoMantione
+
+      MemoryLeaksInJavaScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Memory Leaks in JavaScript"
+        talk_description: "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!"
+        talk_video_url:
+        speakers:
+          speaker_8: *DanielDanielecki
