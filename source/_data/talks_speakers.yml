@@ -135,16 +135,16 @@ speaker_10: &MassimoArtizzu
   is_mc: false
 
 speakers:
-  speaker_1: *StefanoMagni
-  speaker_2: *MatteoRonchi
-  speaker_3: *MaximSalnikov
-  speaker_4: *MałgorzataJaneczek
-  speaker_5: *RamonaDomen
-  speaker_6: *EmmaDawson
-  speaker_7: *MassimilianoMantione
   speaker_8: *DanielDanielecki
+  speaker_6: *EmmaDawson
+  speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
+  speaker_7: *MassimilianoMantione
+  speaker_2: *MatteoRonchi
+  speaker_3: *MaximSalnikov
+  speaker_5: *RamonaDomen
+  speaker_1: *StefanoMagni
 
 tracks:
   track_1: &track_1
