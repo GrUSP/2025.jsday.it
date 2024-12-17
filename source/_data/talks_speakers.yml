@@ -69,12 +69,26 @@ speaker_5: &RamonaDomen
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_6: &EmmaDawson
+  speaker_in_speaker_lists: true
+  speaker_name: "Emma Dawson"
+  speaker_pic_filename: "emma-dawson.jpg"
+  speaker_role: "Web Developer and Accessibility Specialist @ Axess Lab"
+  speaker_bio: "I'm a web developer and accessibility specialist with a passion for creating inclusive digital experiences. <br /> I have worked with a range of banks and e-commerce businesses across the Nordics and Europe and I'm committed to ensuring that everyone, regardless of ability or use of assistive technology, can navigate and interact seamlessly with digital content. <br /> With my expertise in accessibility principles and web development, I strive to promote inclusivity and drive positive change in the digital space."
+  speaker_github_url: "https://github.com/EmmaDawsonDev"
+  speaker_twitter_url: "https://twitter.com/EmmaDawsonDev"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/emmadawsondev/"
+  speaker_mastodon_url: "https://a11y.info/@emmaDawsonDev"
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
   speaker_3: *MaximSalnikov
   speaker_4: *MałgorzataJaneczek
   speaker_5: *RamonaDomen
+  speaker_6: *EmmaDawson
 tracks:
   track_1: &track_1
     id: 1
@@ -185,3 +199,14 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *RamonaDomen
+
+      OhS***There'sANewAccessibilityLawAndI'mNotReady:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Oh S***! There's a new accessibility law and I'm not ready!"
+        talk_description: "As web developers, it's all too common to feel overwhelmed by constant changes in legal requirements. <br /> This talk dives into how we can respond effectively to the new European Accessibility Act without falling into a panic.<br /><br />We'll start by understanding why accessibility is so important - not only to avoid legal trouble but also to create a more inclusive digital world. Next, we'll break down the latest changes in regulations, and discuss ways to quickly assess whether your current website meets these new standards.<br />We'll talk about how you can identify and tackle critical issues right away, and we'll explore strategies for embedding accessibility into every stage of development.<br /><br />Ultimately, this talk is about taking what feels like a daunting challenge and making it manageable. With a little upfront effort and an incremental approach, you can become compliant and ensure that your apps work for everyone."
+        talk_video_url:
+        speakers:
+          speaker_6: *EmmaDawson
