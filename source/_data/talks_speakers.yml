@@ -56,11 +56,25 @@ speaker_4: &MałgorzataJaneczek
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_5: &RamonaDomen
+  speaker_in_speaker_lists: true
+  speaker_name: "Ramona Domen"
+  speaker_pic_filename: "ramona-domen.jpg"
+  speaker_role: "Software Engineer @ Team Rockstars IT"
+  speaker_bio: "I'm a software engineer and public speaker with a passion for creating inclusive and accessible applications. <br /> I like to spread awareness about this topic and hopes to inspire people both in my daily work and by taking the stage whenever I get the chance"
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/ramona-domen-062b79149/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
   speaker_3: *MaximSalnikov
   speaker_4: *MałgorzataJaneczek
+  speaker_5: *RamonaDomen
 tracks:
   track_1: &track_1
     id: 1
@@ -160,3 +174,14 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *MałgorzataJaneczek
+
+      AccessibilityPoweredByAI:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Accessibility powered by AI"
+        talk_description: "AI has taken the tech world by storm, but have you ever considered its transformative impact on digital accessibility? <br />Join us as we explore the dynamic world of AI-driven accessibility, unveiling real-world applications and revealing how renowned AI model GPT-3 and Github Copilot can be harnessed to enhance accessibility in your own applications. <br /><br />Get ready to dive into the future of inclusive design and empowerment!"
+        talk_video_url:
+        speakers:
+          speaker_1: *RamonaDomen
