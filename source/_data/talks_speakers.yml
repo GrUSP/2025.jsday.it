@@ -82,6 +82,19 @@ speaker_6: &EmmaDawson
   speaker_mastodon_url: "https://a11y.info/@emmaDawsonDev"
   is_mc: false
 
+speaker_7: &MassimilianoMantione
+  speaker_in_speaker_lists: true
+  speaker_name: "Massimiliano Mantione"
+  speaker_pic_filename: "massimiliano-mantione.jpg"
+  speaker_role: "Senior Software Engineer @ WorkWave"
+  speaker_bio: "I'm a passionate software engineer, I have worked on implementing telecom switching stations, the Mono JIT compiler, the Unity3D game engine, the V8 Javascript VM at Google, a collaborative virtual reality system on the web, and blockchains. <br />Currently, I am working on operational research applied to logistics at scale in WorkWave."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/M_a_s_s_i"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/massimilianomantione"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
@@ -89,6 +102,7 @@ speakers:
   speaker_4: *MałgorzataJaneczek
   speaker_5: *RamonaDomen
   speaker_6: *EmmaDawson
+  speaker_7: *MassimilianoMantione
 tracks:
   track_1: &track_1
     id: 1
@@ -210,3 +224,18 @@ days:
         talk_video_url:
         speakers:
           speaker_6: *EmmaDawson
+
+      TheCostOfAbstractions:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The Cost of Abstractions"
+        talk_description: >-
+          As programmers we use abstractions all the time, but do we ever care about their costs?
+          And what does it even mean for an abstraction to have a *cost*?
+          In this talk, we'll explore different abstractions available to Javascript developers and their impact on developer productivity, team health, and application runtime behavior.
+          While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
+        talk_video_url:
+        speakers:
+          speaker_7: *MassimilianoMantione
