@@ -6,7 +6,7 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
 speaker_1: &StefanoMagni
   speaker_in_speaker_lists: true
-  speaker_name: "Stefano Magnini"
+  speaker_name: "Stefano Magni"
   speaker_pic_filename: "stefano-magni.jpg"
   speaker_role: "Senior Front-end Engineer @ Preply"
   speaker_bio: "I'm a senior front-end engineer, speaker, instructor, and former Cypress Ambassador. <br />I like to improve the quality of the products I work on, take care of Developer Experience, help other developers grow, and write lasting code.<br />In my career, I have developed different types of interfaces: games, configurators, drawing apps, responsive sites, mobile applications, backoffices, and recently I have focused on large codebases with React, TypeScript and their entire ecosystem and Design Systems.<br />I enjoy sharing my experience by writing articles, speaking at conferences, and teaching how to test your frontend applications.<br />At both Hasura and Preply, I am part of the platform team."
