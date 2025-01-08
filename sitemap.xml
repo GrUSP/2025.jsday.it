@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2025.jsday.it/welcome/about.html</loc>
+    <loc>https://2025.jsday.it/welcome/cfp.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/workshop/workshop_2.html</loc>
+    <loc>https://2025.jsday.it/workshop/front-end-testing.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/talks_speakers/index.html</loc>
+    <loc>https://2025.jsday.it/tickets/index.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/tickets/index.html</loc>
+    <loc>https://2025.jsday.it/talks_speakers/index.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/workshop/front-end-testing.html</loc>
+    <loc>https://2025.jsday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/welcome/cfp.html</loc>
+    <loc>https://2025.jsday.it/welcome/about.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/404.html</loc>
+    <loc>https://2025.jsday.it/2019/08/19/test/</loc>
     
     <lastmod>2025-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/2019/08/19/test/</loc>
+    <loc>https://2025.jsday.it/404.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
