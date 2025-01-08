@@ -47,7 +47,7 @@ speaker_4: &MałgorzataJaneczek
   speaker_in_speaker_lists: true
   speaker_name: "Małgorzata Janeczek"
   speaker_pic_filename: "malgorzata-janeczek.png"
-  speaker_role: "Senior Full-Stack Developer @ Sector Alarm IT"
+  speaker_role: "Senior Full-Stack Developer @ Sector Alarm IT!"
   speaker_bio: "Hi! I am Gosia, but some people know me as a mom, a daughter, some as friend, others coworker, but for some, I am just “ey, you!”. A few years back I graduated from Automatic Control and Robotics, and soon after starting my job in that field, I knew... it's not for me. So I started looking for something new. Then.. it hit me how cool was programming during my studies, so HERE I AM!<br /><br />For quite a few years now I have been working as a full-stack developer with .NET and React (and knockout, Angular JavaScript..). However, recently I have been feeling a growing passion and interest in DevOps too. I am only beginning my DevOps journey, but I am facing some exciting challenges. <br /><br />At the times when I am not coding, you will probably find me either playing with our little one, in my cave painting or trying to play piano."
   speaker_github_url: ""
   speaker_twitter_url: ""
