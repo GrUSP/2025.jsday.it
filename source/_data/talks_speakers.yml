@@ -186,6 +186,23 @@ speaker_14: &ChristianWoerz
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_15: &FarisAziz
+  speaker_in_speaker_lists: true
+  speaker_name: "Faris Aziz"
+  speaker_pic_filename: "faris-aziz.jpg"
+  speaker_role: "Senior Software Engineer @ Nearform"
+  speaker_bio: >
+    I come from a Bootcamp and self-taught background, having contributed to several open-source projects in my spare time. My passion for technology extends beyond coding; I love consulting on web projects and have grown my expertise in web architectures and frontend codebases. Additionally, my experience includes managing large-scale software teams, which has been a significant part of my career development.<br /><br />
+    Having worked in many industries, including Connected TV, Fintech, and Fitness, I have found my niche in start-ups. The ownership, opportunities, and exposure that come with early-stage companies have always resonated with me, driving my passion and commitment to the tech industry.<br /><br />
+    Some of my previous work has revolved around building large-scale full-stack applications for notable companies like Fiit, Discovery, GCN, Eurosport, and Navro (formerly Paytrix), serving millions of users globally. This experience has not only honed my technical skills but also deepened my understanding of the importance of user-centric design and performance in software development.<br /><br />
+    Over time, I have specialized in frontend technologies, particularly React and NextJs. My focus has been on creating user-centric, performant, and maintainable applications that meet and exceed the expectations of both users and developers. My journey through the tech landscape continues to be driven by my dedication to innovation, efficiency, and the endless possibilities of web development.
+  speaker_github_url: "https://github.com/farisaziz12/"
+  speaker_twitter_url: "https://twitter.com/farisaziz12"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/farisaziz12/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
@@ -193,6 +210,7 @@ speakers:
   speaker_14: *ChristianWoerz
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
+  speaker_15: *FarisAziz
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
@@ -419,3 +437,18 @@ days:
         talk_video_url:
         speakers:
           speaker_14: *ChristianWoerz
+
+      ? SolvingRealWorldDataFetchingChallengesWithNext.jsAndTanStackQueryAPragmaticCaseStudy
+      : item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Solving Real World Data Fetching Challenges with Next.js and TanStack Query: A Pragmatic Case Study"
+        talk_description: >
+          This talk explores the intersection of Next.js, React Query, and the Backend for Frontend (BFF) design pattern, three vital elements pieces that help solve the puzzle of performant and scalable data fetching.<br /><br />
+          We'll start by discussing Next.js and its capabilities for React applications, highlighting its features like server rendering and data pre fetching. We then delve into client data fetching and state management, showcasing how React Query brings a new perspective to managing server state hydration in React applications, simplifying data fetching, caching, synchronization, and updates.<br /><br />
+          The last part of the talk will take the topic further by introducing the Backend For Frontend (BFF) design pattern, demonstrating how a BFF can be integrated with NextJs API handler to work seamlessly as a Proxy with a React application, enhancing user experience and performance by spreading the load of large payloads.<br /><br />
+          Throughout the talk, real-world examples will be used to provide a practical understanding of these topics.
+        talk_video_url:
+        speakers:
+          speaker_15: *FarisAziz
