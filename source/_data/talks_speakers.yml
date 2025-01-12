@@ -147,7 +147,21 @@ speaker_11: &AlfonsoGraziano
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_12: &AndreeaMiclaus
+  speaker_in_speaker_lists: true
+  speaker_name: "Andreea Miclaus"
+  speaker_pic_filename: "andreea-miclaus.png"
+  speaker_role: "Co-Founder & COO @ Cube"
+  speaker_bio: "I am a front-end developer with over 5 years of experience, 3 of which I spent in 3 failed startups. I am now building a new one from scratch. Wish me luck!"
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/andreea-miclaus/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
+  speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
@@ -343,3 +357,14 @@ days:
         talk_video_url:
         speakers:
           speaker_11: *AlfonsoGraziano
+
+      ConversationsWithoutPromptsAIInTheWeb:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Conversations Without Prompts: AI in the Web"
+        talk_description: "Chatbots' popularity has soared in the last year with millions of eager users. Prompting has become a skill of the future, but not many know to utilize it well. What if we could move away from prompting and have the AI talk to us instead?<br /><br />In this talk, we'll explore the future of proactive AI in frontend development, building web extensions that continuously analyze user input and deliver real-time feedback straight into the browser. We'll discuss real-world use cases, such as enhancing user knowledge via personalized insights and streamlining user workflows"
+        talk_video_url:
+        speakers:
+          speaker_12: *AndreeaMiclaus
