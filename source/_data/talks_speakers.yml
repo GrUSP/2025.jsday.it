@@ -203,6 +203,21 @@ speaker_15: &FarisAziz
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_16: &GiuseppeFunicello
+  speaker_in_speaker_lists: true
+  speaker_name: "Giuseppe Funicello"
+  speaker_pic_filename: "giuseppe-funicello.jpg"
+  speaker_role: "Freelance Software Engineer - YouTuber"
+  speaker_bio: >
+    I am a nomad developer, working as a freelance software engineer while traveling around the world with my family.
+    I run a Youtube channel about coding and developer-related stuff, building a wonderful community of passionate devs.
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: "https://www.instagram.com/giuppidev/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/giuseppe-funicello/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
@@ -211,6 +226,7 @@ speakers:
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_15: *FarisAziz
+  speaker_16: *GiuseppeFunicello
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
@@ -452,3 +468,14 @@ days:
         talk_video_url:
         speakers:
           speaker_15: *FarisAziz
+
+      ThinkYouKnowTypeScriptThinkAgain:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Think you know TypeScript? Think again."
+        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we’ll go beyond the familiar and dive into TypeScript’s hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
+        talk_video_url:
+        speakers:
+          speaker_16: *GiuseppeFunicello
