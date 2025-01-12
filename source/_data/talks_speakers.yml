@@ -134,7 +134,21 @@ speaker_10: &MassimoArtizzu
   speaker_mastodon_url: "https://mastodon.social/@MaxArt2501"
   is_mc: false
 
+speaker_11: &AlfonsoGraziano
+  speaker_in_speaker_lists: true
+  speaker_name: "Alfonso Graziano"
+  speaker_pic_filename: "alfonso-graziano.jpg"
+  speaker_role: "Tech Lead @ Nearform"
+  speaker_bio: "I'm a Tech Lead at Nearform. I work mainly with Node.js and React. In my free time I like to read books and articles, cook, and exercise."
+  speaker_github_url: "https://github.com/alfonsograziano"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/alfonso-graziano/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
+  speaker_11: *AlfonsoGraziano
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_4: *MałgorzataJaneczek
@@ -318,3 +332,14 @@ days:
         talk_video_url:
         speakers:
           speaker_10: *MassimoArtizzu
+
+      AutomateYourLifeBuildingAWorkflowEngineInTypeScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Automate Your Life: Building a Workflow Engine in TypeScript"
+        talk_description: "In a world full of repetitive tasks, why not automate the boring parts of your life? I’ll show you how to build a custom Workflow Engine in TypeScript to streamline your day-to-day. We'll discuss practical applications and dive into the creation of multiple plugins, including integrations with IoT devices and Large Language Models, to handle complex tasks like crafting intelligent reminders, powering personalized routines, and even connecting with smart devices for seamless control.<br /><br  />We'll start by breaking down the basics of workflow automation, then dive into fun, real-world examples that blend software, hardware, and AI. Perfect for developers ready to explore the power of TypeScript, hardware integration, and the magic of LLMs to automate our life, so you can focus on what matters."
+        talk_video_url:
+        speakers:
+          speaker_11: *AlfonsoGraziano
