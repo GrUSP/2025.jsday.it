@@ -173,10 +173,24 @@ speaker_13: &CarlyRichmond
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_14: &ChristianWoerz
+  speaker_in_speaker_lists: true
+  speaker_name: "Christian Woerz"
+  speaker_pic_filename: "christian-woerz.png"
+  speaker_role: "Senior Fullstack Developer"
+  speaker_bio: "I'm a freelance fullstack developer writing code in languages like Java, Kotlin, Typescript and Javascript. I've been working as a software engineer since over a decade. <br />I love learning from others and sharing my knowledge."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/christian-w%C3%B6rz-a1228380/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
   speaker_13: *CarlyRichmond
+  speaker_14: *ChristianWoerz
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_4: *MałgorzataJaneczek
@@ -393,3 +407,15 @@ days:
         talk_video_url:
         speakers:
           speaker_13: *CarlyRichmond
+
+      ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "A Deep Dive Into Advanced TypeScript: A Live Coding Expedition"
+        talk_description: "Get ready to embark on a journey into the depths of TypeScript. We'll be exploring the often overlooked, yet powerful, features that lie beneath the surface of this versatile language.<br /><br />But we're not just talking theory here – this exploration will be a hands-on experience. Each feature will be brought to life through real-world examples, all done in a live coding session. Join in as we shine a light on these secret TypeScript treasures and discover how they can elevate your coding skills to new heights.<br /><br />Recursive types, type permutations and a css validator written in typescript are just three of the cool topics we are going to cover during this talk."
+
+        talk_video_url:
+        speakers:
+          speaker_14: *ChristianWoerz
