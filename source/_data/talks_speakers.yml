@@ -231,6 +231,19 @@ speaker_17: &LucaDelPuppo
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_18: &MarcoLiberati
+  speaker_in_speaker_lists: true
+  speaker_name: "Marco Liberati"
+  speaker_pic_filename: "marco-liberati.png"
+  speaker_role: "Principal Software Engineer @ Elastic"
+  speaker_bio: "I'm passionate on doing interesting things that make users/developers life easier. From writing performant code in a visualisation library to smooth the editor UX for new languages, I've been working on many different things so far."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/dej611"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/dej611"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
@@ -243,6 +256,7 @@ speakers:
   speaker_17: *LucaDelPuppo
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
+  speaker_18: *MarcoLiberati
   speaker_10: *MassimoArtizzu
   speaker_7: *MassimilianoMantione
   speaker_2: *MatteoRonchi
@@ -507,3 +521,17 @@ days:
         talk_video_url:
         speakers:
           speaker_17: *LucaDelPuppo
+
+      DesignANewLanguageInJSFromZeroToAutocomplete:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Design a new language in JS: from zero to autocomplete"
+        talk_description: >
+          Inventing a new custom language can be a valuable alternative to propose to users rather than add new buttons to a UI.
+          How hard can it be? Or, where to start from?
+          In this talk we're walk through the design of a new simple language to analyze data, then embed it into the Monaco editor with all the advanced features like autocomplete.
+        talk_video_url:
+        speakers:
+          speaker_18: *MarcoLiberati
