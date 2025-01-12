@@ -160,9 +160,23 @@ speaker_12: &AndreeaMiclaus
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_13: &CarlyRichmond
+  speaker_in_speaker_lists: true
+  speaker_name: "Carly Richmond"
+  speaker_pic_filename: "carly-richmond.jpeg"
+  speaker_role: "Principal Developer Advocate & Manager @ Elastic"
+  speaker_bio: "I'm a Principal Developer Advocate & Manager at Elastic, based in London, UK. <br />Before joining Elastic in 2022, I spent over 10 years working as a technologist at a large investment bank, specialising in front-end web development and agility. <br />I'm a UI developer, who occasionally dabbles in writing backend services, a speaker and a regular blogger.<br /><br />I enjoy cooking, photography, drinking tea, and chasing after my young son in my spare time."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/mariusz-kowalczyk/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
+  speaker_13: *CarlyRichmond
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_4: *MałgorzataJaneczek
@@ -368,3 +382,14 @@ days:
         talk_video_url:
         speakers:
           speaker_12: *AndreeaMiclaus
+
+      ObservabilityForFrontendEngineers:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Observability for Frontend Engineers"
+        talk_description: "Observability is the ability to measure a system's current state. <br />Backend engineers are becoming more familiar with the three pillars of observability and technologies such as OpenTelemetry that can be used to instrument applications and diagnose issues. <br /> Yet, in the front-end world, we're behind the curve. <br /><br />Join me as I explore the tools and techniques we can use to instrument, monitor, and diagnose issues in our production front-end applications. I'll cover RUM agents, the metrics and traces they provide, and how to combine them with backend tracing for a holistic picture. These concepts will be reinforced using the Elastic RUM agent and the OpenTelemetry Node.js agent. In addition, I'll cover Synthetic Monitoring and alerting in Observability platforms can help us detect issues impacting users in the UIs we build and maintain using Playwright and Elastic Synthetics."
+        talk_video_url:
+        speakers:
+          speaker_13: *CarlyRichmond
