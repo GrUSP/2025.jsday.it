@@ -218,6 +218,19 @@ speaker_16: &GiuseppeFunicello
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_17: &LucaDelPuppo
+  speaker_in_speaker_lists: true
+  speaker_name: "Luca Del Puppo"
+  speaker_pic_filename: "luca-del-puppo.jpg"
+  speaker_role: "Senior Software Engineer @ Nearform"
+  speaker_bio: "I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert and GitKraken Ambassador, I love JavaScript and TypeScript. In my free time, I love to study new technologies or something about improving myself and do trail running in my love Dolomiti."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/puppo92"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucadelpuppo/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
@@ -227,6 +240,7 @@ speakers:
   speaker_6: *EmmaDawson
   speaker_15: *FarisAziz
   speaker_16: *GiuseppeFunicello
+  speaker_17: *LucaDelPuppo
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
@@ -479,3 +493,17 @@ days:
         talk_video_url:
         speakers:
           speaker_16: *GiuseppeFunicello
+
+      TypeScriptGymnasticsWhyAreTheySoPowerfulForYou:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "TypeScript Gymnastics: Why Are They So Powerful for You?"
+        talk_description: >
+          In TypeScript's type system is more than just a tool for catching errors—it's a way to solve complex problems with clean and reliable code. In this talk, we'll dive into advanced TypeScript techniques like mapped types, conditional types, and generics to handle even the trickiest type challenges.<br /><br />
+          You'll see how these techniques can help you extract, transform, and validate data types while keeping your code simple and maintainable. These "TypeScript gymnastics" aren't just for show—they're practical skills that make your systems stronger and easier to work with.<br /><br />
+          Come learn how to take full advantage of TypeScript's flexibility and power to build solutions that are as smart as they are safe.
+        talk_video_url:
+        speakers:
+          speaker_17: *LucaDelPuppo
