@@ -263,6 +263,22 @@ speaker_19: &MatteoCollina
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_20: &MaxGallo
+  speaker_in_speaker_lists: true
+  speaker_name: "Max Gallo"
+  speaker_pic_filename: "max-gallo.jpg"
+  speaker_role: "Distinguished Engineer @ DAZN"
+  speaker_bio: >
+    I'm a pasta eater biped working at DAZN as Distinguished Engineer.<br />
+    My areas of expertise are JavaScript and Front-End technologies with a DevOps flavour. I like Functional & Reactive solutions both for programming and architectures.<br /><br />
+    I use spaces, not tabs.
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/_maxgallo"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/max-gallo-86000130/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
@@ -280,6 +296,7 @@ speakers:
   speaker_7: *MassimilianoMantione
   speaker_19: *MatteoCollina
   speaker_2: *MatteoRonchi
+  speaker_20: *MaxGallo
   speaker_3: *MaximSalnikov
   speaker_5: *RamonaDomen
   speaker_1: *StefanoMagni
@@ -569,3 +586,18 @@ days:
         talk_video_url:
         speakers:
           speaker_19: *MatteoCollina
+
+      MicroFrontends,FiveYearsAfter:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Micro Frontends, Five Years After"
+        talk_description: >
+          Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
+          At DAZN, a global live sports streaming platform serving millions of users, our Micro Frontend journey began five years ago. Back then, it was just a single team venturing into this new territory. Since then, we've grown exponentially, experiencing failures, breakthroughs, and plenty of experimentation with different solutions, tools, and approaches. I'd love to share our story and what we've learned along the way.<br /><br />
+          This talk is dedicated to Mary, who's tired of waiting for other teams to align their releases. It's for Brent, who abandoned a migration from React to Svelte because convincing multiple teams felt impossible. And it's for Julie, who found herself on call during a live incident, scrambling to understand 17 code changes deployed just hours earlier. Sound familiar?
+
+        talk_video_url:
+        speakers:
+          speaker_20: *MaxGallo
