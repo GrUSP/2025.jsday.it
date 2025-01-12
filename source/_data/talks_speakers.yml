@@ -294,6 +294,23 @@ speaker_21: &NicoMartin
   speaker_mastodon_url: "https://bsky.app/profile/nico.dev"
   is_mc: false
 
+speaker_22: &WoutMertens
+  speaker_in_speaker_lists: true
+  speaker_name: "Wout Mertens"
+  speaker_pic_filename: "wout-mertens.jpg"
+  speaker_role: Head of Product @ StratoKit SA"
+  speaker_bio: >
+    Hello! I've been working in IT for several decades, with experience in Unix administration and programming at companies like Cisco, Technicolor, and StratoKit.<br /><br />
+    When I learned about React in 2014, I knew it was something special. Now, Qwik gives me that same feeling of excitement and potential.<br /><br />
+    As a core contributor to Qwik, I'm passionate about improving it and ensuring it's easy for everyone to use.<br /><br />
+    I hope my talk inspires you to explore the next big thing in web development!
+  speaker_github_url: "https://github.com/wmertens"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/woutmertens/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_12: *AndreeaMiclaus
   speaker_11: *AlfonsoGraziano
@@ -316,6 +333,7 @@ speakers:
   speaker_21: *NicoMartin
   speaker_5: *RamonaDomen
   speaker_1: *StefanoMagni
+  speaker_22: *WoutMertens
 
 tracks:
   track_1: &track_1
@@ -618,7 +636,6 @@ days:
         speakers:
           speaker_20: *MaxGallo
 
-
       LetsBuildK.I.T.T.WithJavaScript:
         item_type: "talk"
         track: *track_1
@@ -629,3 +646,17 @@ days:
         talk_video_url:
         speakers:
           speaker_21: *NicoMartin
+
+      QwikGoFor100:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Qwik Go For 💯"
+        talk_description: >
+          The bar for high-performing websites keeps rising, and it's a critical factor for both user experience and search rankings. While achieving good scores is possible, it often requires significant effort and ongoing maintenance.<br /><br />
+          In this talk, I'll show how Qwik makes it easy to achieve top web metrics, automatically, even as your application scales.<br /><br />
+          We'll dive into Qwik's optimizer, explore the power of resumability and JS streaming, and uncover how its reactivity system works to deliver blazing-fast web experiences.
+        talk_video_url:
+        speakers:
+          speaker_22: *WoutMertens
