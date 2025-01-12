@@ -236,11 +236,30 @@ speaker_18: &MarcoLiberati
   speaker_name: "Marco Liberati"
   speaker_pic_filename: "marco-liberati.png"
   speaker_role: "Principal Software Engineer @ Elastic"
-  speaker_bio: "I'm passionate on doing interesting things that make users/developers life easier. From writing performant code in a visualisation library to smooth the editor UX for new languages, I've been working on many different things so far."
+  speaker_bio: "I am passionate about doing interesting things that make users/developers lives easier. From writing performant code in a visualization library to smoothing the editor UX for new languages, I've been working on many different things so far."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/dej611"
   speaker_instagram_url: ""
   speaker_linkedin_url: "https://www.linkedin.com/in/dej611"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_19: &MatteoCollina
+  speaker_in_speaker_lists: true
+  speaker_name: "Matteo Collina"
+  speaker_pic_filename: "matteo-collina.png"
+  speaker_role: " Co-Founder/CTO @ Platformatic - Node.js TSC member - Fastify Lead Maintainer"
+  speaker_bio: >
+    I am the Co-Founder and CTO of Platformatic.dev. <br />
+    I am also a prolific Open Source author in the JavaScript ecosystem and modules I maintain are downloaded more than 12 billion times a year. 
+    <br />Previously I was Chief Software Architect at NearForm, the best professional services company in the JavaScript ecosystem. 
+    In 2014, I defended my Ph.D. thesis titled "Application Platforms for the Internet of Things". I am a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. 
+    <br />
+    I am also the author of the fast logger Pino and of the Fastify web framework. I am a renowned international speaker after more than 60 conferences, including OpenJS World, Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. I am also co-author of the book "Node.js Cookbook, Third Edition" edited by Packt. In the summer I love sailing the Sirocco.
+  speaker_github_url: "http://github.com/mcollina/"
+  speaker_twitter_url: "https://twitter.com/matteocollina"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/matteocollina/"
   speaker_mastodon_url: ""
   is_mc: false
 
@@ -259,6 +278,7 @@ speakers:
   speaker_18: *MarcoLiberati
   speaker_10: *MassimoArtizzu
   speaker_7: *MassimilianoMantione
+  speaker_19: *MatteoCollina
   speaker_2: *MatteoRonchi
   speaker_3: *MaximSalnikov
   speaker_5: *RamonaDomen
@@ -535,3 +555,17 @@ days:
         talk_video_url:
         speakers:
           speaker_18: *MarcoLiberati
+
+      TheStateOfNode.js2025:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The State of Node.js 2025"
+        talk_description:
+          "Despite exaggerated claims about its decline, Node.js is thriving. Its continued evolution pushes the boundaries of what the modern web can do. We'll start by debunking myths about Node.js and showcasing its recent enhancements and robust performance in the tech landscape.<br /><br />
+          The focus then shifts to Node.js's current role in server-side programming and cloud-native applications, emphasizing the vibrant community contributions that drive its progress. We'll also explore how integrating modern JavaScript features and the influence of emerging technologies are shaping Node.js's future, not signaling its end.<br /><br />
+          Concluding, the talk projects a bright future for Node.js, identifying growth areas and dispelling any misconceptions about its relevance in the evolving world of technology."
+        talk_video_url:
+        speakers:
+          speaker_19: *MatteoCollina
