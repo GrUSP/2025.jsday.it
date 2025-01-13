@@ -190,12 +190,13 @@ speaker_15: &FarisAziz
   speaker_in_speaker_lists: true
   speaker_name: "Faris Aziz"
   speaker_pic_filename: "faris-aziz.jpg"
-  speaker_role: "Staff Frontend Engineer & Engineering Manager"
+  speaker_role: "Staff Frontend Engineer @ Smallpdf"
   speaker_bio: >
-    I come from a Bootcamp and self-taught background, having contributed to several open-source projects in my spare time. My passion for technology extends beyond coding; I love consulting on web projects and have grown my expertise in web architectures and frontend codebases. Additionally, my experience includes managing large-scale software teams, which has been a significant part of my career development.<br /><br />
-    Having worked in many industries, including Connected TV, Fintech, and Fitness, I have found my niche in start-ups. The ownership, opportunities, and exposure that come with early-stage companies have always resonated with me, driving my passion and commitment to the tech industry.<br /><br />
-    Some of my previous work has revolved around building large-scale full-stack applications for notable companies like Fiit, Discovery, GCN, Eurosport, and Navro (formerly Paytrix), serving millions of users globally. This experience has not only honed my technical skills but also deepened my understanding of the importance of user-centric design and performance in software development.<br /><br />
-    Over time, I have specialized in frontend technologies, particularly React and NextJs. My focus has been on creating user-centric, performant, and maintainable applications that meet and exceed the expectations of both users and developers. My journey through the tech landscape continues to be driven by my dedication to innovation, efficiency, and the endless possibilities of web development.
+    I am an experienced engineer, international conference speaker, and workshop instructor specializing in React, Next.js, web architecture, and resilient system design. I have a deep passion for startups, having worked in early-stage companies ranging from founding teams to organizations scaling from 1 to 100 people. My expertise spans engineering leadership, building career ladders from scratch, and managing teams of over 10 engineers.<br /><br />
+    As a front-end subject matter expert, I have contributed to creating systems used by millions of users worldwide. My work has ranged from building greenfield projects from the ground up to maintaining and scaling decade-old products. My experience covers industries like Connected TV, Fintech, SaaS, and Fitness, working with companies such as Smallpdf, Fiit, Discovery, GCN, Eurosport, and Navro (formerly Paytrix).<br /><br />
+    My specialization lies in building user-centric, performant, and maintainable applications. I have a particular interest in observability and monitoring, ensuring that systems are not only robust but also easy to troubleshoot and optimize. My passion extends to sharing knowledge, organizing the Zurich.js meetup in Switzerland, and speaking at international conferences about web development, engineering leadership, and creating scalable systems.<br /><br />
+    In my free time, I enjoy contributing to web development tools like Raycast and spending time contemplating life's great questions, like why the build works on my machine but nowhere else.
+
   speaker_github_url: "https://github.com/farisaziz12/"
   speaker_twitter_url: "https://twitter.com/farisaziz12"
   speaker_instagram_url: ""
