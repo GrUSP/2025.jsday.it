@@ -561,10 +561,8 @@ days:
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Solving Real World Data Fetching Challenges with Next.js and TanStack Query: A Pragmatic Case Study"
         talk_description: >
-          This talk explores the intersection of Next.js, React Query, and the Backend for Frontend (BFF) design pattern, three vital elements pieces that help solve the puzzle of performant and scalable data fetching.<br /><br />
-          We'll start by discussing Next.js and its capabilities for React applications, highlighting its features like server rendering and data pre fetching. We then delve into client data fetching and state management, showcasing how React Query brings a new perspective to managing server state hydration in React applications, simplifying data fetching, caching, synchronization, and updates.<br /><br />
-          The last part of the talk will take the topic further by introducing the Backend For Frontend (BFF) design pattern, demonstrating how a BFF can be integrated with NextJs API handler to work seamlessly as a Proxy with a React application, enhancing user experience and performance by spreading the load of large payloads.<br /><br />
-          Throughout the talk, real-world examples will be used to provide a practical understanding of these topics.
+          Building seamless user experiences can be challenging when APIs aren't designed with frontend needs in mind. This talk tackles common issues like excessive network requests, inefficient caching, resilience gaps, and bloated API payloads. Through a real-world fintech case study, we'll explore how to address these obstacles using tools like Next.js, TanStack Query, and the Backend-for-Frontend (BFF) design pattern. You'll learn how to evolve data-fetching strategies from basic implementations to robust solutions that balance performance and resilience, even under the constraints of APIs serving multiple third-party clients. The session highlights practical strategies for overcoming limitations and empowering frontend teams to work effectively, despite backend constraints.<br /><br />
+          We'll dive into a case where a fintech team I lead faced massive API payloads filled with unnecessary data, creating performance bottlenecks and resilience challenges. By adopting the BFF pattern and leveraging Next.js for server-side rendering and API routing, they reduced payload sizes and streamlined caching strategies. TanStack Query optimized server to client state management and minimized re-renders, ensuring scalability and better user experiences. With demos, this talk equips developers with actionable techniques to build resilient and scalable frontend solutions in real-world conditions.
         talk_video_url:
         speakers:
           speaker_15: *FarisAziz
@@ -575,7 +573,7 @@ days:
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Think you know TypeScript? Think again."
-        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we’ll go beyond the familiar and dive into TypeScript’s hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
+        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we'll go beyond the familiar and dive into TypeScript's hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
         talk_video_url:
         speakers:
           speaker_16: *GiuseppeFunicello
