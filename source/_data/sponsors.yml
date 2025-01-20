@@ -16,6 +16,10 @@ sponsors_block_title: "Thanks to our sponsors"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.svg"
+    site_url: "https://www.sparkfabrik.com/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -32,11 +36,11 @@ silver:
 #     name: "SiteGround"
 #     logo_filename: "siteground.png"
 #     site_url: "https://www.siteground.com/"
-# bronze:
-#   sponsor2:
-#     name: "stickermule"
-#     logo_filename: "stickermule.svg"
-#     site_url: "https://mule.to/p2gc"
+bronze:
+  sponsor1:
+    name: "PostPickr"
+    logo_filename: "postpickr.svg"
+    site_url: "https://www.postpickr.com/"
 # diversity:
 #   sponsor1:
 #     name: "S"
