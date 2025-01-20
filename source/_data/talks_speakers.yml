@@ -345,6 +345,21 @@ speaker_24: &CarmenHuidobro
   speaker_mastodon_url: "https://hola-soy-milk.online/"
   is_mc: false
 
+speaker_25: &GilbertoCocchi
+  speaker_in_speaker_lists: true
+  speaker_name: "Gilberto Cocchi"
+  speaker_pic_filename: "gilberto-cocchi.png"
+  speaker_role: "Staff Partner Solutions Engineering @ Google"
+  speaker_bio: >
+    Staff partner engineer & consultant supporting Google Chrome and the Web Platform products.<br /><br />
+    I work in close partnership with PM, Eng, BD and DevRel to support Product Objectives via Partnerships.
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/gilbertococchi/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
@@ -354,6 +369,7 @@ speakers:
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_15: *FarisAziz
+  speaker_25: *GilbertoCocchi
   speaker_16: *GiuseppeFunicello
   speaker_23: *JemimaAbu
   speaker_17: *LucaDelPuppo
@@ -722,3 +738,17 @@ days:
         talk_video_url:
         speakers:
           speaker_24: *CarmenHuidobro
+
+      What'sNewForTheWebPlatform:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "What's new for the web platform"
+        talk_description: >
+          This Presentation will cover some of the latest Web Platform features available on the Web to ensure developers deliver a consistent, delightful and performance user experience for their site users.<br /><br />
+          From the latest UI Capabilities APIs to the latest Performance innovations available on Chrome browser.<br /><br />
+          Lastly an overview of what's new in Chrome DevTools to help developers better troubleshoot and improve their code.
+        talk_video_url:
+        speakers:
+          speaker_25: *GilbertoCocchi
