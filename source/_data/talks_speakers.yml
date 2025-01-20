@@ -360,6 +360,20 @@ speaker_25: &GilbertoCocchi
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_26: &OliverMedhurst
+  speaker_in_speaker_lists: true
+  speaker_name: "Oliver Medhurst"
+  speaker_pic_filename: "oliver-medhurst.jpg"
+  speaker_role: "Creator, Porffor"
+  speaker_bio: >
+    I started Porffor, an ahead-of-time JavaScript compiler, in June 2023 as a side project and have now been working on it full-time since August 2024!
+  speaker_github_url: "https://github.com/CanadaHonk"
+  speaker_twitter_url: "https://x.com/CanadaHonk"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
@@ -383,6 +397,7 @@ speakers:
   speaker_20: *MaxGallo
   speaker_3: *MaximSalnikov
   speaker_21: *NicoMartin
+  speaker_26: *OliverMedhurst
   speaker_5: *RamonaDomen
   speaker_1: *StefanoMagni
   speaker_22: *WoutMertens
@@ -752,3 +767,18 @@ days:
         talk_video_url:
         speakers:
           speaker_25: *GilbertoCocchi
+
+      CompilingJavaScriptAheadOfTime:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Compiling JavaScript ahead-of-time"
+        talk_description: >
+          Traditionally JavaScript has always been interpreted or just-in-time compiled, while this works great for web browsers, outside of them they can be non-ideal due to resource restrictions, security concerns, and more.<br /><br />
+          Compiling JS ahead-of-time is a new option offering exciting new ways to use JS efficiently: instead of shipping an entire runtime to the end user, why not compile it like C++ or Rust?<br /><br />
+          While ahead-of-time has it's own challenges, for some uses it makes much more sense than previous existing solutions thanks to its characteristics like tiny binary sizes and efficient resource usage.<br /><br />
+          Porffor is a new open-source project which does exactly this! With already promising results, it makes ahead-of-time increasingly considered as one of JS's future paths forward."
+        talk_video_url:
+        speakers:
+          speaker_26: *OliverMedhurst
