@@ -374,6 +374,41 @@ speaker_26: &OliverMedhurst
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_27: &FabioBiondi
+  speaker_in_speaker_lists: true
+  speaker_name: "Fabio Biondi"
+  speaker_pic_filename: "fabio-biondi.png"
+  speaker_role: "Co-Founder @ Learn by Do.ing "
+  speaker_bio: >
+    Fabio Biondi, Microsoft MVP and Google Developer Expert, is a freelance developer with more than 15 years of experience in creating enterprise web applications.<br /><br />
+    Speaker at numerous front-end events, he has also founded several Italian communities dealing with Javascript, Angular and React (~30000 members).<br /><br />
+    Currently he is mainly involved in training and consulting on JS, TS, Angular, React, Redux, NGRX, Next and RxJS.
+  speaker_github_url: ""
+  speaker_twitter_url: https://twitter.com/biondifabio"
+  speaker_instagram_url: "https://www.instagram.com/biondifabio/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_28: &GiorgioBoa
+  speaker_in_speaker_lists: true
+  speaker_name: "Giorgio Boa"
+  speaker_pic_filename: "giorgio-boa.jpg"
+  speaker_role: "Senior Software Engineer @ Qarik Group"
+  speaker_bio: >
+    I am a passionate Full Stack Developer currently working at Qarik, where I leverage extensive experience in building scalable applications.<br /><br />
+    My journey led to the discovery of the power of JavaScript, and I have been deeply involved in the front-end ecosystem.<br /><br />
+    As a core team member of Qwik, I actively contribute to its development and the wider OSS community.<br /><br />
+    I am an avid learner, constantly seeking new challenges and knowledge to enhance my skills.<br /><br />
+    Sharing expertise with others is a true passion of mine. I am an international speaker, engaging audiences worldwide and contributing to the global tech community.<br /><br />
+    My ambition drives me to improve daily, always striving for excellence in my craft. 🚀
+  speaker_github_url: "https://github.com/gioboa"
+  speaker_twitter_url: "https://twitter.com/giorgio_boa"
+  speaker_instagram_url: "https://www.instagram.com/giorgio.boa"
+  speaker_linkedin_url: "https://www.linkedin.com/in/giorgio-boa/?originalSubdomain=it"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
@@ -382,8 +417,10 @@ speakers:
   speaker_14: *ChristianWoerz
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
+  speaker_27: *FabioBiondi
   speaker_15: *FarisAziz
   speaker_25: *GilbertoCocchi
+  speaker_28: *GiorgioBoa
   speaker_16: *GiuseppeFunicello
   speaker_23: *JemimaAbu
   speaker_17: *LucaDelPuppo
@@ -782,3 +819,25 @@ days:
         talk_video_url:
         speakers:
           speaker_26: *OliverMedhurst
+
+      WhatsHappeningInTheJavaScriptEcosystem:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "What's Happening in the JavaScript Ecosystem?"
+        talk_description: >
+          A comprehensive toolkit filled with strategies and insights to navigate and excel in the modern JavaScript landscape.<br /><br />
+          1. Frontend Innovations<br />
+          Discover the latest in frontend frameworks like Angular, Next.js, Astro, and Qwik, emphasizing their rendering strategies and built-in optimizations.
+          We'll dive into Core Web Vitals for assessing performance, explore micro frontends (MFEs) for modular architectures and discuss techniques to enhance user experience.<br /><br />
+          2. Backend Developments<br />
+          The Node.js ecosystem has experienced remarkable growth this year, bringing forth an array of innovative features and tools that enhance the developer experience.
+          While Node.js continues to evolve and strengthen its position, the JavaScript runtime landscape has become more diverse with the emergence of compelling alternatives. Notably, Deno and Bun have established themselves as powerful contenders, each offering unique advantages and modern approaches to server-side JavaScript development.
+          These alternatives provide developers with more options to choose from, depending on their specific project requirements and preferences.<br /><br />
+          3. Tooling Advancements<br />
+          Modern bundlers and compilers enhance both performance and developer experience. With advanced tools and CLIs, developers can now efficiently manage large projects and deploy to production with minimal commands. Framework creators prioritize developer experience (DX), making it easier than ever to build and maintain applications without manual overhead.
+        talk_video_url:
+        speakers:
+          speaker_27: *FabioBiondi
+          speaker_28: *GiorgioBoa
