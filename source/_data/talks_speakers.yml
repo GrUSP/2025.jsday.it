@@ -91,7 +91,7 @@ speaker_7: &MassimilianoMantione
   speaker_name: "Massimiliano Mantione"
   speaker_pic_filename: "massimiliano-mantione.jpg"
   speaker_role: "Senior Software Engineer @ WorkWave"
-  speaker_bio: "I'm a passionate software engineer, I have worked on implementing telecom switching stations, the Mono JIT compiler, the Unity3D game engine, the V8 Javascript VM at Google, a collaborative virtual reality system on the web, and blockchains. <br />Currently, I am working on operational research applied to logistics at scale in WorkWave."
+  speaker_bio: "I'm a passionate software engineer, I have worked on implementing telecom switching stations, the Mono JIT compiler, the Unity3D game engine, the V8 JavaScript VM at Google, a collaborative virtual reality system on the web, and blockchains. <br />Currently, I am working on operational research applied to logistics at scale in WorkWave."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/M_a_s_s_i"
   speaker_instagram_url: ""
@@ -182,7 +182,7 @@ speaker_14: &ChristianWoerz
   speaker_name: "Christian Woerz"
   speaker_pic_filename: "christian-woerz.png"
   speaker_role: "Senior Fullstack Developer"
-  speaker_bio: "I'm a freelance fullstack developer writing code in languages like Java, Kotlin, Typescript and Javascript. I've been working as a software engineer since over a decade. <br />I love learning from others and sharing my knowledge."
+  speaker_bio: "I'm a freelance fullstack developer writing code in languages like Java, Kotlin, Typescript and JavaScript. I've been working as a software engineer since over a decade. <br />I love learning from others and sharing my knowledge."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -381,7 +381,7 @@ speaker_27: &FabioBiondi
   speaker_role: "Co-Founder @ Learn by Do.ing "
   speaker_bio: >
     Fabio Biondi, Microsoft MVP and Google Developer Expert, is a freelance developer with more than 15 years of experience in creating enterprise web applications.<br /><br />
-    Speaker at numerous front-end events, he has also founded several Italian communities dealing with Javascript, Angular and React (~30000 members).<br /><br />
+    Speaker at numerous front-end events, he has also founded several Italian communities dealing with JavaScript, Angular and React (~30000 members).<br /><br />
     Currently he is mainly involved in training and consulting on JS, TS, Angular, React, Redux, NGRX, Next and RxJS.
   speaker_github_url: ""
   speaker_twitter_url: https://twitter.com/biondifabio"
@@ -407,6 +407,19 @@ speaker_28: &GiorgioBoa
   speaker_instagram_url: "https://www.instagram.com/giorgio.boa"
   speaker_linkedin_url: "https://www.linkedin.com/in/giorgio-boa/?originalSubdomain=it"
   speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_29: &PaoloCaressa
+  speaker_in_speaker_lists: true
+  speaker_name: "Paolo Caressa"
+  speaker_pic_filename: "paolo-caressa.png"
+  speaker_role: "IT Expert @ GSE spae"
+  speaker_bio: "Stuff I do/did: IT quality assurance, IT processes, data analysis, account management, project management, IT architect, dev, risk management, quant finance, math teaching, math research. Also: I write papers, articles and books about math, its history and popular science; I speak about: math, AI/ML, programming languages."
+  speaker_github_url: "https://github.com/pcaressa"
+  speaker_twitter_url: "https://twitter.com/www_caressa_it"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://linkedin.com/in/paolocaressa"
+  speaker_mastodon_url: "https://mathstodon.xyz/@paolo_caressa"
   is_mc: false
 
 speakers:
@@ -435,6 +448,7 @@ speakers:
   speaker_3: *MaximSalnikov
   speaker_21: *NicoMartin
   speaker_26: *OliverMedhurst
+  speaker_29: *PaoloCaressa
   speaker_5: *RamonaDomen
   speaker_1: *StefanoMagni
   speaker_22: *WoutMertens
@@ -570,7 +584,7 @@ days:
         talk_description: >-
           As programmers we use abstractions all the time, but do we ever care about their costs? <br />
           And what does it even mean for an abstraction to have a *cost*? <br />
-          In this talk, we'll explore different abstractions available to Javascript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
+          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
           While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
         talk_video_url:
         speakers:
@@ -841,3 +855,12 @@ days:
         speakers:
           speaker_27: *FabioBiondi
           speaker_28: *GiorgioBoa
+
+      ElegantByDesignJavaScriptInJavaScript:
+        item_type: "talk"
+        track: *track_1
+        talk_title: "Elegant by Design: JavaScript in JavaScript"
+        talk_description: "Aesthetic concepts are usually considered subjective, even in computer science. <br /> However, I will try to show that JavaScript is an inherently elegant language, using the following definition of elegance: A programming language is elegant if it can be naturally implemented by itself. I'll show that this is the case for JavaScript by describing a (simple) JavaScript self-implementation."
+        talk_video_url:
+        speakers:
+          speaker_29: *PaoloCaressa
