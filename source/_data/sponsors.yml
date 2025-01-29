@@ -4,11 +4,11 @@ sponsors_block_title: "Thanks to our sponsors"
 #     name: "accenture"
 #     logo_filename: "accenture.png"
 #     site_url: "https://www.accenture.com/"
-# diamond:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+diamond:
+  sponsor1:
+    name: "platformatic"
+    logo_filename: "platformatic.svg"
+    site_url: "https://www.platformatichq.com/"
 # platinum:
 #   sponsor1:
 #     name: ""
