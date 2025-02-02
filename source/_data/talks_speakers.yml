@@ -422,6 +422,20 @@ speaker_29: &PaoloCaressa
   speaker_mastodon_url: "https://mathstodon.xyz/@paolo_caressa"
   is_mc: false
 
+speaker_30: &MelindaSeckington
+  speaker_in_speaker_lists: true
+  speaker_name: "Melinda Seckington"
+  speaker_pic_filename: "melinda-seckington.jpg"
+  speaker_role: "Founder @ Learn Build Share"
+  speaker_bio: >
+    I am an engineering leader and conference speaker with over 10 years experience of working with and managing teams of developers & managers and conference speaking. <br /><br />Since 2014, I have helped engineers, designers and product managers with their public speaking skills, through speaker coaching, workshops and talks about public speaking. I also work together with engineering leaders and engineering managers on how to build up internal employee evangelism & culture within their teams."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/mseckington"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/mseckington/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
@@ -446,6 +460,7 @@ speakers:
   speaker_2: *MatteoRonchi
   speaker_20: *MaxGallo
   speaker_3: *MaximSalnikov
+  speaker_30: *MelindaSeckington
   speaker_21: *NicoMartin
   speaker_26: *OliverMedhurst
   speaker_29: *PaoloCaressa
@@ -864,3 +879,15 @@ days:
         talk_video_url:
         speakers:
           speaker_29: *PaoloCaressa
+
+
+      DevelopingResilience:
+        item_type: "talk"
+        track: *track_1
+        talk_title: "Developing Resilience"
+        talk_description: "Within tech, things change constantly. Technologies change, companies change, priorities change - in most roles you need to learn how to adapt and roll with whatever comes your way. Things will always be in flux and a key skill is learning how to deal with change and become more resilient to it.<br /><br />
+          Especially with the current state of the industry, it's become even more important to build your own resilience and learn to become more adaptable. As managers, we need to be aware of our own emotions, reactions and behaviours, understand how we can be more resilient to change and how to help build that resilience in the people we manage.<br /><br />
+          This talk will examine the psychology behind emotions and resilience, how to recognise and evaluate your own state, and how to come up with techniques to help deal with the hardest stuff."  
+        talk_video_url:
+        speakers:
+          speaker_30: *MelindaSeckington
