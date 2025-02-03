@@ -918,10 +918,34 @@ days:
 
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2025-04-08T13:00+02:00
-        end_datetime: 2025-04-08T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
+        start_datetime: 2025-04-08T15:25+02:00
+        end_datetime: 2025-04-08T15:55+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+      LetsBuildK.I.T.T.WithJavaScript:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-08T15:55+02:00
+        end_datetime: 2025-04-08T16:35+02:00
+        talk_title: "Let's build K.I.T.T. with JavaScript"
+        talk_description: "In the 1982 TV series 'knight rider', the idea of a talking, intelligent car was pure science fiction. Now, more than 40 years later, we have all the tools needed to bring this vision to life—right in the browser, using JavaScript. In this talk, we'll combine AI techniques like Retrieval-Augmented Generation (RAG) and function calling with advanced browser APIs like WebBluetooth to create an AI agent with personality, memory, and autonomous decision-making abilities. Leveraging WebAssembly, WebGPU, and other cutting-edge browser technologies, this entire experience happens directly in the browser, running fully offline and privacy preserving by default!"
+        talk_video_url:
+        speakers:
+          speaker_21: *NicoMartin
+
+      ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-08T15:55+02:00
+        end_datetime: 2025-04-08T16:35+02:00
+        talk_title: "A Deep Dive Into Advanced TypeScript: A Live Coding Expedition"
+        talk_description: "Get ready to embark on a journey into the depths of TypeScript. We'll be exploring the often overlooked, yet powerful, features that lie beneath the surface of this versatile language.<br /><br />But we're not just talking theory here – this exploration will be a hands-on experience. Each feature will be brought to life through real-world examples, all done in a live coding session. Join in as we shine a light on these secret TypeScript treasures and discover how they can elevate your coding skills to new heights.<br /><br />Recursive types, type permutations and a css validator written in typescript are just three of the cool topics we are going to cover during this talk."
+
+        talk_video_url:
+        speakers:
+          speaker_14: *ChristianWoerz
+
       closing:
         item_type: "service"
         start_datetime: 2025-04-08T18:15+02:00
@@ -939,29 +963,6 @@ days:
       #   talk_video_url:
       #   speakers:
       #     speaker_1: *speaker
-
-      ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "A Deep Dive Into Advanced TypeScript: A Live Coding Expedition"
-        talk_description: "Get ready to embark on a journey into the depths of TypeScript. We'll be exploring the often overlooked, yet powerful, features that lie beneath the surface of this versatile language.<br /><br />But we're not just talking theory here – this exploration will be a hands-on experience. Each feature will be brought to life through real-world examples, all done in a live coding session. Join in as we shine a light on these secret TypeScript treasures and discover how they can elevate your coding skills to new heights.<br /><br />Recursive types, type permutations and a css validator written in typescript are just three of the cool topics we are going to cover during this talk."
-
-        talk_video_url:
-        speakers:
-          speaker_14: *ChristianWoerz
-
-      LetsBuildK.I.T.T.WithJavaScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "Let's build K.I.T.T. with JavaScript"
-        talk_description: "In the 1982 TV series 'knight rider', the idea of a talking, intelligent car was pure science fiction. Now, more than 40 years later, we have all the tools needed to bring this vision to life—right in the browser, using JavaScript. In this talk, we'll combine AI techniques like Retrieval-Augmented Generation (RAG) and function calling with advanced browser APIs like WebBluetooth to create an AI agent with personality, memory, and autonomous decision-making abilities. Leveraging WebAssembly, WebGPU, and other cutting-edge browser technologies, this entire experience happens directly in the browser, running fully offline and privacy preserving by default!"
-        talk_video_url:
-        speakers:
-          speaker_21: *NicoMartin
 
       UntanglingYourDependenciesAPatternForAWellKnitJavaScriptProject:
         item_type: "talk"
