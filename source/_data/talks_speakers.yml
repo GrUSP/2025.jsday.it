@@ -466,10 +466,11 @@ speakers:
   speaker_12: *AndreeaMiclaus
   speaker_4: *MałgorzataJaneczek
   speaker_6: *EmmaDawson
+  speaker_8: *DanielDanielecki
+  speaker_5: *RamonaDomen
 
   speaker_14: *ChristianWoerz
   speaker_31: *ClaudioWunder
-  speaker_8: *DanielDanielecki
 
   speaker_16: *GiuseppeFunicello
 
@@ -482,7 +483,7 @@ speakers:
   speaker_3: *MaximSalnikov
   speaker_30: *MelindaSeckington
   speaker_21: *NicoMartin
-  speaker_5: *RamonaDomen
+
   speaker_1: *StefanoMagni
   speaker_29: *PaoloCaressa
 
@@ -740,10 +741,32 @@ days:
         speakers:
           speaker_6: *EmmaDawson
 
+      MemoryLeaksInJavaScript:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T17:25+02:00
+        end_datetime: 2025-04-07T18:00+02:00
+        talk_title: "Memory Leaks in JavaScript"
+        talk_description: "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!"
+        talk_video_url:
+        speakers:
+          speaker_8: *DanielDanielecki
+
+      AccessibilityPoweredByAI:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T17:25+02:00
+        end_datetime: 2025-04-07T18:00+02:00
+        talk_title: "Accessibility powered by AI"
+        talk_description: "AI has taken the tech world by storm, but have you ever considered its transformative impact on digital accessibility? <br />Join us as we explore the dynamic world of AI-driven accessibility, unveiling real-world applications and revealing how renowned AI model GPT-3 and Github Copilot can be harnessed to enhance accessibility in your own applications. <br /><br />Get ready to dive into the future of inclusive design and empowerment!"
+        talk_video_url:
+        speakers:
+          speaker_1: *RamonaDomen
+
       closing:
         item_type: "service"
-        start_datetime: 2025-04-07T18:15+02:00
-        end_datetime: 2025-04-07T18:30+02:00
+        start_datetime: 2025-04-07T18:00+02:00
+        end_datetime: 2025-04-07T18:10+02:00
         talk_title: "See you tomorrow!"
 
   day_2:
@@ -814,28 +837,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *MaximSalnikov
-
-      AccessibilityPoweredByAI:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Accessibility powered by AI"
-        talk_description: "AI has taken the tech world by storm, but have you ever considered its transformative impact on digital accessibility? <br />Join us as we explore the dynamic world of AI-driven accessibility, unveiling real-world applications and revealing how renowned AI model GPT-3 and Github Copilot can be harnessed to enhance accessibility in your own applications. <br /><br />Get ready to dive into the future of inclusive design and empowerment!"
-        talk_video_url:
-        speakers:
-          speaker_1: *RamonaDomen
-
-      MemoryLeaksInJavaScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Memory Leaks in JavaScript"
-        talk_description: "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!"
-        talk_video_url:
-        speakers:
-          speaker_8: *DanielDanielecki
 
       ThePathToNativeTypeScript:
         item_type: "talk"
