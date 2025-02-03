@@ -9,11 +9,13 @@ diamond:
     name: "platformatic"
     logo_filename: "platformatic.svg"
     site_url: "https://www.platformatichq.com/"
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+
+platinum:
+  sponsor1:
+    name: "nearform"
+    logo_filename: "nearform .svg"
+    site_url: "https://www.nearform.com"
+
 gold:
   sponsor1:
     name: "SparkFabrik"
