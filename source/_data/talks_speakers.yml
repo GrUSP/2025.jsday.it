@@ -458,6 +458,8 @@ speakers:
   speaker_18: *MarcoLiberati
   speaker_26: *OliverMedhurst
   speaker_13: *CarlyRichmond
+  speaker_17: *LucaDelPuppo
+  speaker_22: *WoutMertens
 
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
@@ -466,12 +468,9 @@ speakers:
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_15: *FarisAziz
-
   speaker_16: *GiuseppeFunicello
-  speaker_17: *LucaDelPuppo
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
-
   speaker_10: *MassimoArtizzu
   speaker_7: *MassimilianoMantione
   speaker_19: *MatteoCollina
@@ -480,11 +479,9 @@ speakers:
   speaker_3: *MaximSalnikov
   speaker_30: *MelindaSeckington
   speaker_21: *NicoMartin
-
-  speaker_29: *PaoloCaressa
   speaker_5: *RamonaDomen
   speaker_1: *StefanoMagni
-  speaker_22: *WoutMertens
+  speaker_29: *PaoloCaressa
 
 tracks:
   track_1: &track_1
@@ -626,17 +623,46 @@ days:
         speakers:
           speaker_13: *CarlyRichmond
 
-      closing:
-        item_type: "service"
-        start_datetime: 2025-04-07T18:15+02:00
-        end_datetime: 2025-04-07T18:30+02:00
-        talk_title: "See you tomorrow!"
       lunch:
         item_type: "service"
         start_datetime: 2025-04-07T12:50+02:00
         end_datetime: 2025-04-07T14:20+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
+
+      TypeScriptGymnasticsWhyAreTheySoPowerfulForYou:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T14:20+02:00
+        end_datetime: 2025-04-07T15:00+02:00
+        talk_title: "TypeScript Gymnastics: Why Are They So Powerful for You?"
+        talk_description: >
+          In TypeScript's type system is more than just a tool for catching errors—it's a way to solve complex problems with clean and reliable code. In this talk, we'll dive into advanced TypeScript techniques like mapped types, conditional types, and generics to handle even the trickiest type challenges.<br /><br />
+          You'll see how these techniques can help you extract, transform, and validate data types while keeping your code simple and maintainable. These "TypeScript gymnastics" aren't just for show—they're practical skills that make your systems stronger and easier to work with.<br /><br />
+          Come learn how to take full advantage of TypeScript's flexibility and power to build solutions that are as smart as they are safe.
+        talk_video_url:
+        speakers:
+          speaker_17: *LucaDelPuppo
+
+      QwikGoFor100:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T14:20+02:00
+        end_datetime: 2025-04-07T15:00+02:00
+        talk_title: "Qwik Go For 💯"
+        talk_description: >
+          The bar for high-performing websites keeps rising, and it's a critical factor for both user experience and search rankings. While achieving good scores is possible, it often requires significant effort and ongoing maintenance.<br /><br />
+          In this talk, I'll show how Qwik makes it easy to achieve top web metrics, automatically, even as your application scales.<br /><br />
+          We'll dive into Qwik's optimizer, explore the power of resumability and JS streaming, and uncover how its reactivity system works to deliver blazing-fast web experiences.
+        talk_video_url:
+        speakers:
+          speaker_22: *WoutMertens
+
+      closing:
+        item_type: "service"
+        start_datetime: 2025-04-07T18:15+02:00
+        end_datetime: 2025-04-07T18:30+02:00
+        talk_title: "See you tomorrow!"
 
   day_2:
     date: 2021-04-08T09:45+02:00
@@ -860,20 +886,6 @@ days:
         speakers:
           speaker_16: *GiuseppeFunicello
 
-      TypeScriptGymnasticsWhyAreTheySoPowerfulForYou:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "TypeScript Gymnastics: Why Are They So Powerful for You?"
-        talk_description: >
-          In TypeScript's type system is more than just a tool for catching errors—it's a way to solve complex problems with clean and reliable code. In this talk, we'll dive into advanced TypeScript techniques like mapped types, conditional types, and generics to handle even the trickiest type challenges.<br /><br />
-          You'll see how these techniques can help you extract, transform, and validate data types while keeping your code simple and maintainable. These "TypeScript gymnastics" aren't just for show—they're practical skills that make your systems stronger and easier to work with.<br /><br />
-          Come learn how to take full advantage of TypeScript's flexibility and power to build solutions that are as smart as they are safe.
-        talk_video_url:
-        speakers:
-          speaker_17: *LucaDelPuppo
-
       TheStateOfNode.js2025:
         item_type: "talk"
         track: *track_1
@@ -913,20 +925,6 @@ days:
         talk_video_url:
         speakers:
           speaker_21: *NicoMartin
-
-      QwikGoFor100:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Qwik Go For 💯"
-        talk_description: >
-          The bar for high-performing websites keeps rising, and it's a critical factor for both user experience and search rankings. While achieving good scores is possible, it often requires significant effort and ongoing maintenance.<br /><br />
-          In this talk, I'll show how Qwik makes it easy to achieve top web metrics, automatically, even as your application scales.<br /><br />
-          We'll dive into Qwik's optimizer, explore the power of resumability and JS streaming, and uncover how its reactivity system works to deliver blazing-fast web experiences.
-        talk_video_url:
-        speakers:
-          speaker_22: *WoutMertens
 
       ICantBelieveIt'sNotJavaScript:
         item_type: "talk"
