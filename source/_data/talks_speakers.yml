@@ -436,12 +436,26 @@ speaker_30: &MelindaSeckington
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_31: &ClaudioWunder
+  speaker_in_speaker_lists: true
+  speaker_name: "Claudio Wunder"
+  speaker_pic_filename: "claudio-wunder.png"
+  speaker_role: "Engineering @ HubSpot"
+  speaker_bio: >
+    I am a Platform Engineer at HubSpot, maintaining part of the Frontend Infrastructure. I am also a Node.js Core Collaborator, responsible for maintaining Node.js's Web Infrastructure. Additionally, I serve as the co-chair of webpack's TSC and am a voting member of the OpenJS Foundation. Previously, I contributed to the GNOME Foundation.
+  speaker_github_url: ""
+  speaker_twitter_url: "https://x.com/wunderacle"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://linkedin.com/in/claudio-wunder"
+  speaker_mastodon_url: ""
+  is_mc: false
 speakers:
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
   speaker_13: *CarlyRichmond
   speaker_24: *CarmenHuidobro
   speaker_14: *ChristianWoerz
+  speaker_31: *ClaudioWunder
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_27: *FabioBiondi
@@ -880,14 +894,24 @@ days:
         speakers:
           speaker_29: *PaoloCaressa
 
-
       DevelopingResilience:
         item_type: "talk"
         track: *track_1
         talk_title: "Developing Resilience"
-        talk_description: "Within tech, things change constantly. Technologies change, companies change, priorities change - in most roles you need to learn how to adapt and roll with whatever comes your way. Things will always be in flux and a key skill is learning how to deal with change and become more resilient to it.<br /><br />
+        talk_description:
+          "Within tech, things change constantly. Technologies change, companies change, priorities change - in most roles you need to learn how to adapt and roll with whatever comes your way. Things will always be in flux and a key skill is learning how to deal with change and become more resilient to it.<br /><br />
           Especially with the current state of the industry, it's become even more important to build your own resilience and learn to become more adaptable. As managers, we need to be aware of our own emotions, reactions and behaviours, understand how we can be more resilient to change and how to help build that resilience in the people we manage.<br /><br />
-          This talk will examine the psychology behind emotions and resilience, how to recognise and evaluate your own state, and how to come up with techniques to help deal with the hardest stuff."  
+          This talk will examine the psychology behind emotions and resilience, how to recognise and evaluate your own state, and how to come up with techniques to help deal with the hardest stuff."
         talk_video_url:
         speakers:
           speaker_30: *MelindaSeckington
+
+      RevampingHowNodeBinariesAreServedAtScale:
+        item_type: "talk"
+        track: *track_1
+        talk_title: "Revamping How Node Binaries Are Served At Scale"
+        talk_description: >
+          Managing the distribution of Node.js binaries at scale presents unique challenges, from infrastructure bottlenecks to inefficient caching and incident management in an open-source ecosystem. In this talk, we’ll dive into the architecture of Node.js binary distribution, explore the pain points of the legacy system, and walk through our journey of migrating to Cloudflare Workers and R2 for a scalable, resilient, and maintainable solution. Learn about the lessons we’ve faced, the incremental improvements we’ve made, and how we’re future-proofing the system for the next generation of Node.js users."
+        talk_video_url:
+        speakers:
+          speaker_31: *ClaudioWunder
