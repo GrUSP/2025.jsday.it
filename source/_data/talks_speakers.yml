@@ -658,6 +658,34 @@ days:
         speakers:
           speaker_22: *WoutMertens
 
+      ? SolvingRealWorldDataFetchingChallengesWithNext.jsAndTanStackQueryAPragmaticCaseStudy
+      : item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T15:00+02:00
+        end_datetime: 2025-04-07T15:35+02:00
+        talk_title: "Solving Real World Data Fetching Challenges with Next.js and TanStack Query: A Pragmatic Case Study"
+        talk_description: >
+          Building seamless user experiences can be challenging when APIs aren't designed with frontend needs in mind. This talk tackles common issues like excessive network requests, inefficient caching, resilience gaps, and bloated API payloads. Through a real-world fintech case study, we'll explore how to address these obstacles using tools like Next.js, TanStack Query, and the Backend-for-Frontend (BFF) design pattern. You'll learn how to evolve data-fetching strategies from basic implementations to robust solutions that balance performance and resilience, even under the constraints of APIs serving multiple third-party clients. The session highlights practical strategies for overcoming limitations and empowering frontend teams to work effectively, despite backend constraints.<br /><br />
+          We'll dive into a case where a fintech team I lead faced massive API payloads filled with unnecessary data, creating performance bottlenecks and resilience challenges. By adopting the BFF pattern and leveraging Next.js for server-side rendering and API routing, they reduced payload sizes and streamlined caching strategies. TanStack Query optimized server to client state management and minimized re-renders, ensuring scalability and better user experiences. With demos, this talk equips developers with actionable techniques to build resilient and scalable frontend solutions in real-world conditions.
+        talk_video_url:
+        speakers:
+          speaker_15: *FarisAziz
+
+      TheCostOfAbstractions:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T15:00+02:00
+        end_datetime: 2025-04-07T15:35+02:00
+        talk_title: "The Cost of Abstractions"
+        talk_description: >-
+          As programmers we use abstractions all the time, but do we ever care about their costs? <br />
+          And what does it even mean for an abstraction to have a *cost*? <br />
+          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
+          While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
+        talk_video_url:
+        speakers:
+          speaker_7: *MassimilianoMantione
+
       closing:
         item_type: "service"
         start_datetime: 2025-04-07T18:15+02:00
@@ -766,21 +794,6 @@ days:
         speakers:
           speaker_6: *EmmaDawson
 
-      TheCostOfAbstractions:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "The Cost of Abstractions"
-        talk_description: >-
-          As programmers we use abstractions all the time, but do we ever care about their costs? <br />
-          And what does it even mean for an abstraction to have a *cost*? <br />
-          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
-          While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
-        talk_video_url:
-        speakers:
-          speaker_7: *MassimilianoMantione
-
       MemoryLeaksInJavaScript:
         item_type: "talk"
         track: *track_1
@@ -861,19 +874,6 @@ days:
         talk_video_url:
         speakers:
           speaker_14: *ChristianWoerz
-
-      ? SolvingRealWorldDataFetchingChallengesWithNext.jsAndTanStackQueryAPragmaticCaseStudy
-      : item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Solving Real World Data Fetching Challenges with Next.js and TanStack Query: A Pragmatic Case Study"
-        talk_description: >
-          Building seamless user experiences can be challenging when APIs aren't designed with frontend needs in mind. This talk tackles common issues like excessive network requests, inefficient caching, resilience gaps, and bloated API payloads. Through a real-world fintech case study, we'll explore how to address these obstacles using tools like Next.js, TanStack Query, and the Backend-for-Frontend (BFF) design pattern. You'll learn how to evolve data-fetching strategies from basic implementations to robust solutions that balance performance and resilience, even under the constraints of APIs serving multiple third-party clients. The session highlights practical strategies for overcoming limitations and empowering frontend teams to work effectively, despite backend constraints.<br /><br />
-          We'll dive into a case where a fintech team I lead faced massive API payloads filled with unnecessary data, creating performance bottlenecks and resilience challenges. By adopting the BFF pattern and leveraging Next.js for server-side rendering and API routing, they reduced payload sizes and streamlined caching strategies. TanStack Query optimized server to client state management and minimized re-renders, ensuring scalability and better user experiences. With demos, this talk equips developers with actionable techniques to build resilient and scalable frontend solutions in real-world conditions.
-        talk_video_url:
-        speakers:
-          speaker_15: *FarisAziz
 
       ThinkYouKnowTypeScriptThinkAgain:
         item_type: "talk"
