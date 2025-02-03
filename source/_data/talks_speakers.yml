@@ -476,10 +476,8 @@ speakers:
   speaker_20: *MaxGallo
   speaker_31: *ClaudioWunder
   speaker_10: *MassimoArtizzu
-  speaker_31: *ClaudioWunder
-  speaker_10: *MassimoArtizzu
   speaker_3: *MaximSalnikov
-  speaker_16: *GiuseppeFunicello  
+  speaker_16: *GiuseppeFunicello
   speaker_21: *NicoMartin
   speaker_14: *ChristianWoerz
   speaker_29: *PaoloCaressa
@@ -875,41 +873,25 @@ days:
         speakers:
           speaker_10: *MassimoArtizzu
 
-      closing:
+      lunch:
         item_type: "service"
-        start_datetime: 2025-04-08T18:15+02:00
-        end_datetime: 2025-04-08T18:30+02:00
-        talk_title: "See you tomorrow!"
-      coffee-afternoon:
-        item_type: "service"
-        start_datetime: 2025-04-08T13:00+02:00
-        end_datetime: 2025-04-08T14:30+02:00
+        start_datetime: 2025-04-08T12:45+02:00
+        end_datetime: 2025-04-08T14:15+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2025-04-08T18:25+02:00
-        end_datetime: 2025-04-08T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
 
-      # talk
-      # keynote:
-      #   item_type: "keynote"
-      #   track: *track_1
-      #   start_datetime: 2025-04-08T09:30+02:00
-      #   end_datetime: 2025-04-08T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
+      # Lightning talks
+      lightning:
+        item_type: "service"
+        start_datetime: 2025-04-08T14:15+02:00
+        end_datetime: 2025-04-08T14:45+02:00
+        talk_title: "Lightning talks"
 
       ? PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased
       : item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
+        start_datetime: 2025-04-08T14:45+02:00
+        end_datetime: 2025-04-08T15:25+02:00
         talk_title: "Privacy-first in-browser Generative AI web apps: offline-ready, future-proof, standards-based"
         talk_description: >-
           Powerful generative AI features are quickly becoming a baseline in modern development.<br /> 
@@ -923,16 +905,40 @@ days:
         speakers:
           speaker_1: *MaximSalnikov
 
-      ObservabilityForFrontendEngineers:
+      ThinkYouKnowTypeScriptThinkAgain:
         item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "Observability for Frontend Engineers"
-        talk_description: "Observability is the ability to measure a system's current state. <br />Backend engineers are becoming more familiar with the three pillars of observability and technologies such as OpenTelemetry that can be used to instrument applications and diagnose issues. <br /> Yet, in the front-end world, we're behind the curve. <br /><br />Join me as I explore the tools and techniques we can use to instrument, monitor, and diagnose issues in our production front-end applications. I'll cover RUM agents, the metrics and traces they provide, and how to combine them with backend tracing for a holistic picture. These concepts will be reinforced using the Elastic RUM agent and the OpenTelemetry Node.js agent. In addition, I'll cover Synthetic Monitoring and alerting in Observability platforms can help us detect issues impacting users in the UIs we build and maintain using Playwright and Elastic Synthetics."
+        track: *track_2
+        start_datetime: 2025-04-08T14:45+02:00
+        end_datetime: 2025-04-08T15:25+02:00
+        talk_title: "Think you know TypeScript? Think again."
+        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we'll go beyond the familiar and dive into TypeScript's hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
         talk_video_url:
         speakers:
-          speaker_13: *CarlyRichmond
+          speaker_16: *GiuseppeFunicello
+
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2025-04-08T13:00+02:00
+        end_datetime: 2025-04-08T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+      closing:
+        item_type: "service"
+        start_datetime: 2025-04-08T18:15+02:00
+        end_datetime: 2025-04-08T18:30+02:00
+        talk_title: "See you tomorrow!"
+
+      # talk
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2025-04-08T09:30+02:00
+      #   end_datetime: 2025-04-08T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
 
       ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
         item_type: "talk"
@@ -946,17 +952,6 @@ days:
         speakers:
           speaker_14: *ChristianWoerz
 
-      ThinkYouKnowTypeScriptThinkAgain:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "Think you know TypeScript? Think again."
-        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we'll go beyond the familiar and dive into TypeScript's hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
-        talk_video_url:
-        speakers:
-          speaker_16: *GiuseppeFunicello
-
       LetsBuildK.I.T.T.WithJavaScript:
         item_type: "talk"
         track: *track_1
@@ -967,20 +962,6 @@ days:
         talk_video_url:
         speakers:
           speaker_21: *NicoMartin
-
-      ICantBelieveIt'sNotJavaScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "I Can't Believe It's Not JavaScript!"
-        talk_description: >
-          When building interactive features on a webpage, JavaScript is usually the way to go. However, with great JavaScript dependencies comes great website instability. Even a minor undefined element can cause your entire webpage to crash.<br /><br />
-          That's where going back to the basics comes in. Thanks to modern Web APIs, it's now possible to reduce JavaScript dependency on a website by swapping out JS components for their native HTML element or CSS feature counterparts.<br /><br />
-          In this talk, we'll take a look at how to use HTML and CSS to build simpler alternatives to popular JavaScript components such as accordions, modals, scroll transitions, carousels etc We'll also take a look at the performance and accessibility benefits and real-life applications and use-cases of these components.
-        talk_video_url:
-        speakers:
-          speaker_23: *JemimaAbu
 
       UntanglingYourDependenciesAPatternForAWellKnitJavaScriptProject:
         item_type: "talk"
