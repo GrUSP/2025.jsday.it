@@ -472,15 +472,16 @@ speakers:
   speaker_19: *MatteoCollina
   speaker_1: *StefanoMagni
   speaker_2: *MatteoRonchi
-
-  speaker_14: *ChristianWoerz
-  speaker_31: *ClaudioWunder
-  speaker_16: *GiuseppeFunicello
   speaker_9: *MarcoIppolito
-  speaker_10: *MassimoArtizzu
   speaker_20: *MaxGallo
+  speaker_31: *ClaudioWunder
+  speaker_10: *MassimoArtizzu
+  speaker_31: *ClaudioWunder
+  speaker_10: *MassimoArtizzu
   speaker_3: *MaximSalnikov
+  speaker_16: *GiuseppeFunicello  
   speaker_21: *NicoMartin
+  speaker_14: *ChristianWoerz
   speaker_29: *PaoloCaressa
 
 tracks:
@@ -844,10 +845,35 @@ days:
           Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
           At DAZN, a global live sports streaming platform serving millions of users, our Micro Frontend journey began five years ago. Back then, it was just a single team venturing into this new territory. Since then, we've grown exponentially, experiencing failures, breakthroughs, and plenty of experimentation with different solutions, tools, and approaches. I'd love to share our story and what we've learned along the way.<br /><br />
           This talk is dedicated to Mary, who's tired of waiting for other teams to align their releases. It's for Brent, who abandoned a migration from React to Svelte because convincing multiple teams felt impossible. And it's for Julie, who found herself on call during a live incident, scrambling to understand 17 code changes deployed just hours earlier. Sound familiar?
-
         talk_video_url:
         speakers:
           speaker_20: *MaxGallo
+
+      RevampingHowNodeBinariesAreServedAtScale:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-08T12:10+02:00
+        end_datetime: 2025-04-08T12:45+02:00
+        talk_title: "Revamping How Node Binaries Are Served At Scale"
+        talk_description: >
+          Managing the distribution of Node.js binaries at scale presents unique challenges, from infrastructure bottlenecks to inefficient caching and incident management in an open-source ecosystem. In this talk, we’ll dive into the architecture of Node.js binary distribution, explore the pain points of the legacy system, and walk through our journey of migrating to Cloudflare Workers and R2 for a scalable, resilient, and maintainable solution. Learn about the lessons we’ve faced, the incremental improvements we’ve made, and how we’re future-proofing the system for the next generation of Node.js users."
+        talk_video_url:
+        speakers:
+          speaker_31: *ClaudioWunder
+
+      JavaScriptIsAnOddball:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-08T12:10+02:00
+        end_datetime: 2025-04-08T12:45+02:00
+        talk_title: "JavaScript is an Oddball"
+        talk_description: >-
+          If you're a web developer, JavaScript is probably the language you're using the most. But it's also a language that never ceases to gives us surprises. How many times did we say "Huh, so it behaves like that!", or "I didn't know that API existed!", or just "This is so weird..."
+          <br /><br />And it's just that: JavaScript is weird. Being the language itself, with its quirkiness thoroughly examined in many occasions; or in the case of weird, less-known, or just DOM APIs with unusual signatures and implementations. But maybe some of these techniques, which could have been common knowledge, are still useful today and could solve our day-to-day problems.
+          <br /><br />Just don't use them in production! Not for now, at least..."
+        talk_video_url:
+        speakers:
+          speaker_10: *MassimoArtizzu
 
       closing:
         item_type: "service"
@@ -896,20 +922,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *MaximSalnikov
-
-      JavaScriptIsAnOddball:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "JavaScript is an Oddball"
-        talk_description: >-
-          If you're a web developer, JavaScript is probably the language you're using the most. But it's also a language that never ceases to gives us surprises. How many times did we say "Huh, so it behaves like that!", or "I didn't know that API existed!", or just "This is so weird..."
-          <br /><br />And it's just that: JavaScript is weird. Being the language itself, with its quirkiness thoroughly examined in many occasions; or in the case of weird, less-known, or just DOM APIs with unusual signatures and implementations. But maybe some of these techniques, which could have been common knowledge, are still useful today and could solve our day-to-day problems.
-          <br /><br />Just don't use them in production! Not for now, at least..."
-        talk_video_url:
-        speakers:
-          speaker_10: *MassimoArtizzu
 
       ObservabilityForFrontendEngineers:
         item_type: "talk"
@@ -992,13 +1004,3 @@ days:
         talk_video_url:
         speakers:
           speaker_29: *PaoloCaressa
-
-      RevampingHowNodeBinariesAreServedAtScale:
-        item_type: "talk"
-        track: *track_1
-        talk_title: "Revamping How Node Binaries Are Served At Scale"
-        talk_description: >
-          Managing the distribution of Node.js binaries at scale presents unique challenges, from infrastructure bottlenecks to inefficient caching and incident management in an open-source ecosystem. In this talk, we’ll dive into the architecture of Node.js binary distribution, explore the pain points of the legacy system, and walk through our journey of migrating to Cloudflare Workers and R2 for a scalable, resilient, and maintainable solution. Learn about the lessons we’ve faced, the incremental improvements we’ve made, and how we’re future-proofing the system for the next generation of Node.js users."
-        talk_video_url:
-        speakers:
-          speaker_31: *ClaudioWunder
