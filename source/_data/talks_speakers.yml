@@ -460,19 +460,21 @@ speakers:
   speaker_13: *CarlyRichmond
   speaker_17: *LucaDelPuppo
   speaker_22: *WoutMertens
-
+  speaker_15: *FarisAziz
+  speaker_7: *MassimilianoMantione
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
+
   speaker_14: *ChristianWoerz
   speaker_31: *ClaudioWunder
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
-  speaker_15: *FarisAziz
+
   speaker_16: *GiuseppeFunicello
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
-  speaker_7: *MassimilianoMantione
+
   speaker_19: *MatteoCollina
   speaker_2: *MatteoRonchi
   speaker_20: *MaxGallo
@@ -686,6 +688,35 @@ days:
         speakers:
           speaker_7: *MassimilianoMantione
 
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2025-04-07T15:35+02:00
+        end_datetime: 2025-04-07T16:05+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+      AutomateYourLifeBuildingAWorkflowEngineInTypeScript:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T16:05+02:00
+        end_datetime: 2025-04-07T16:45+02:00
+        talk_title: "Automate Your Life: Building a Workflow Engine in TypeScript"
+        talk_description: "In a world full of repetitive tasks, why not automate the boring parts of your life? I'll show you how to build a custom Workflow Engine in TypeScript to streamline your day-to-day. We'll discuss practical applications and dive into the creation of multiple plugins, including integrations with IoT devices and Large Language Models, to handle complex tasks like crafting intelligent reminders, powering personalized routines, and even connecting with smart devices for seamless control.<br /><br  />We'll start by breaking down the basics of workflow automation, then dive into fun, real-world examples that blend software, hardware, and AI. Perfect for developers ready to explore the power of TypeScript, hardware integration, and the magic of LLMs to automate our life, so you can focus on what matters."
+        talk_video_url:
+        speakers:
+          speaker_11: *AlfonsoGraziano
+
+      ConversationsWithoutPromptsAIInTheWeb:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T16:05+02:00
+        end_datetime: 2025-04-07T16:45+02:00
+        talk_title: "Conversations Without Prompts: AI in the Web"
+        talk_description: "Chatbots' popularity has soared in the last year with millions of eager users. Prompting has become a skill of the future, but not many know to utilize it well. What if we could move away from prompting and have the AI talk to us instead?<br /><br />In this talk, we'll explore the future of proactive AI in frontend development, building web extensions that continuously analyze user input and deliver real-time feedback straight into the browser. We'll discuss real-world use cases, such as enhancing user knowledge via personalized insights and streamlining user workflows"
+        talk_video_url:
+        speakers:
+          speaker_12: *AndreeaMiclaus
+
       closing:
         item_type: "service"
         start_datetime: 2025-04-07T18:15+02:00
@@ -829,28 +860,6 @@ days:
         talk_video_url:
         speakers:
           speaker_10: *MassimoArtizzu
-
-      AutomateYourLifeBuildingAWorkflowEngineInTypeScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Automate Your Life: Building a Workflow Engine in TypeScript"
-        talk_description: "In a world full of repetitive tasks, why not automate the boring parts of your life? I'll show you how to build a custom Workflow Engine in TypeScript to streamline your day-to-day. We'll discuss practical applications and dive into the creation of multiple plugins, including integrations with IoT devices and Large Language Models, to handle complex tasks like crafting intelligent reminders, powering personalized routines, and even connecting with smart devices for seamless control.<br /><br  />We'll start by breaking down the basics of workflow automation, then dive into fun, real-world examples that blend software, hardware, and AI. Perfect for developers ready to explore the power of TypeScript, hardware integration, and the magic of LLMs to automate our life, so you can focus on what matters."
-        talk_video_url:
-        speakers:
-          speaker_11: *AlfonsoGraziano
-
-      ConversationsWithoutPromptsAIInTheWeb:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Conversations Without Prompts: AI in the Web"
-        talk_description: "Chatbots' popularity has soared in the last year with millions of eager users. Prompting has become a skill of the future, but not many know to utilize it well. What if we could move away from prompting and have the AI talk to us instead?<br /><br />In this talk, we'll explore the future of proactive AI in frontend development, building web extensions that continuously analyze user input and deliver real-time feedback straight into the browser. We'll discuss real-world use cases, such as enhancing user knowledge via personalized insights and streamlining user workflows"
-        talk_video_url:
-        speakers:
-          speaker_12: *AndreeaMiclaus
 
       ObservabilityForFrontendEngineers:
         item_type: "talk"
