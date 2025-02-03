@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -450,6 +450,8 @@ speaker_31: &ClaudioWunder
   speaker_mastodon_url: ""
   is_mc: false
 speakers:
+  speaker_27: *FabioBiondi
+  speaker_28: *GiorgioBoa
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
   speaker_13: *CarlyRichmond
@@ -458,10 +460,10 @@ speakers:
   speaker_31: *ClaudioWunder
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
-  speaker_27: *FabioBiondi
+
   speaker_15: *FarisAziz
   speaker_25: *GilbertoCocchi
-  speaker_28: *GiorgioBoa
+
   speaker_16: *GiuseppeFunicello
   speaker_23: *JemimaAbu
   speaker_17: *LucaDelPuppo
@@ -503,371 +505,20 @@ tracks:
 
 days:
   day_1:
-    date: 2021-07-06T09:45+02:00
+    date: 2025-04-07T09:00+02:00
     title: "Day 1"
     talks:
-      # service
       opening:
         item_type: "service"
-        start_datetime: 2021-07-06T09:45+02:00
-        end_datetime: 2021-07-06T10:00+02:00
+        start_datetime: 2025-04-07T09:30+02:00
+        end_datetime: 2025-04-07T09:40+02:00
         talk_title: "Opening by GrUSP"
-      closing:
-        item_type: "service"
-        start_datetime: 2021-07-06T18:15+02:00
-        end_datetime: 2021-07-06T18:30+02:00
-        talk_title: "See you tomorrow!"
-      coffee-morning:
-        item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
-
-      # talk
-      # keynote:
-      #   item_type: "keynote"
-      #   track: *track_1
-      #   start_datetime: 2022-05-19T09:30+02:00
-      #   end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
-      DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Design System Visual Coverage in web and app (React Native) applications"
-        talk_description: "The need to show how much the Design System empowers our customers' interactions makes us color and count pixels straight in the browser instead of following a more typical static analysis approach.<br /><br />The desire to be independent of product teams and their always-packed OKRs leads us to count pixels in production when customers interact with the product.<br /><br />The requirement to not impact our customers' UX even if they use feature phones drives us to idle callbacks and web workers and consult a former Google Chrome engineer to lower the memory footprint as much as possible.<br /><br />Doing the same for React Native required more shenanigans (it's harder to inspect the rendered tree in a Mobile environment), and a safer approach, but it's also working!<br /><br />We will present our experience to show engineers and company leaders the measurable value of the Design System in our products. This approach works well for Preply (a B2C language learning portal) and WorkWave (B2B field service software), and other companies are approaching the topic the same way."
-        talk_video_url:
-        speakers:
-          speaker_1: *StefanoMagni
-          speaker_2: *MatteoRonchi
-
-      ? PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased
-      : item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Privacy-first in-browser Generative AI web apps: offline-ready, future-proof, standards-based"
-        talk_description: >-
-          Powerful generative AI features are quickly becoming a baseline in modern development.<br /> 
-          Potential blockers include privacy concerns, the need for a stable connection, and the costs 
-          associated with using or hosting models. However, we can now leverage generative AI directly 
-          in the browser on the user's device using emerging Web APIs like WebNN, combined with 
-          higher-level frameworks, for a better developer experience.<br /><br />In my session, I'll 
-          discuss the current state of in-browser ML and AI features, compare the main players, and 
-          show you how to start building an offline-ready, future-proof, standards-based web application.
-        talk_video_url:
-        speakers:
-          speaker_1: *MaximSalnikov
-
-      JavaScriptIsWeirdMythBustersSpecial:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "JavaScript is weird. MythBusters special."
-        talk_description: "In the era of Instagram, TikTok and YouTube it's easy to get lost in reels and shorts telling you tons of different things from the earth being flat, through tarot readings changing your life to JavaScript being weird. But is this really so? <br /><br />Let's break some popular cases down together and see if JavaScript really is weird or maybe it's just a myth getting more and more popular?"
-        talk_video_url:
-        speakers:
-          speaker_1: *MałgorzataJaneczek
-
-      AccessibilityPoweredByAI:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Accessibility powered by AI"
-        talk_description: "AI has taken the tech world by storm, but have you ever considered its transformative impact on digital accessibility? <br />Join us as we explore the dynamic world of AI-driven accessibility, unveiling real-world applications and revealing how renowned AI model GPT-3 and Github Copilot can be harnessed to enhance accessibility in your own applications. <br /><br />Get ready to dive into the future of inclusive design and empowerment!"
-        talk_video_url:
-        speakers:
-          speaker_1: *RamonaDomen
-
-      OhS***There'sANewAccessibilityLawAndI'mNotReady:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Oh S***! There's a new accessibility law and I'm not ready!"
-        talk_description: "As web developers, it's all too common to feel overwhelmed by constant changes in legal requirements. <br /> This talk dives into how we can respond effectively to the new European Accessibility Act without falling into a panic.<br /><br />We'll start by understanding why accessibility is so important - not only to avoid legal trouble but also to create a more inclusive digital world. Next, we'll break down the latest changes in regulations, and discuss ways to quickly assess whether your current website meets these new standards.<br />We'll talk about how you can identify and tackle critical issues right away, and we'll explore strategies for embedding accessibility into every stage of development.<br /><br />Ultimately, this talk is about taking what feels like a daunting challenge and making it manageable. With a little upfront effort and an incremental approach, you can become compliant and ensure that your apps work for everyone."
-        talk_video_url:
-        speakers:
-          speaker_6: *EmmaDawson
-
-      TheCostOfAbstractions:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "The Cost of Abstractions"
-        talk_description: >-
-          As programmers we use abstractions all the time, but do we ever care about their costs? <br />
-          And what does it even mean for an abstraction to have a *cost*? <br />
-          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
-          While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
-        talk_video_url:
-        speakers:
-          speaker_7: *MassimilianoMantione
-
-      MemoryLeaksInJavaScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Memory Leaks in JavaScript"
-        talk_description: "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!"
-        talk_video_url:
-        speakers:
-          speaker_8: *DanielDanielecki
-
-      ThePathToNativeTypeScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "The Path to Native TypeScript"
-        talk_description: 'Imagine the convenience of executing TypeScript files directly with Node.js using "node file.ts". <br />Just a few years ago, this concept seemed like a distant dream. <br />Today, it stands as an exciting experimental feature. <br />This narrative dives into the journey of transforming this dream into a reality.<br /><br />Integrating TypeScript natively into Node.js posed significant challenges. These hurdles included managing TypeScript''s lack of strict semantic versioning guarantees and accommodating various TS flavors.<br /><br />Today, the experimental native TypeScript support in Node.js marks a transformative milestone. Beyond merely executing .ts files, it signifies a leap forward in JavaScript development.'
-        talk_video_url:
-        speakers:
-          speaker_9: *MarcoIppolito
-
-      JavaScriptIsAnOddball:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "JavaScript is an Oddball"
-        talk_description: >-
-          If you're a web developer, JavaScript is probably the language you're using the most. But it's also a language that never ceases to gives us surprises. How many times did we say "Huh, so it behaves like that!", or "I didn't know that API existed!", or just "This is so weird..."
-          <br /><br />And it's just that: JavaScript is weird. Being the language itself, with its quirkiness thoroughly examined in many occasions; or in the case of weird, less-known, or just DOM APIs with unusual signatures and implementations. But maybe some of these techniques, which could have been common knowledge, are still useful today and could solve our day-to-day problems.
-          <br /><br />Just don't use them in production! Not for now, at least..."
-        talk_video_url:
-        speakers:
-          speaker_10: *MassimoArtizzu
-
-      AutomateYourLifeBuildingAWorkflowEngineInTypeScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Automate Your Life: Building a Workflow Engine in TypeScript"
-        talk_description: "In a world full of repetitive tasks, why not automate the boring parts of your life? I'll show you how to build a custom Workflow Engine in TypeScript to streamline your day-to-day. We'll discuss practical applications and dive into the creation of multiple plugins, including integrations with IoT devices and Large Language Models, to handle complex tasks like crafting intelligent reminders, powering personalized routines, and even connecting with smart devices for seamless control.<br /><br  />We'll start by breaking down the basics of workflow automation, then dive into fun, real-world examples that blend software, hardware, and AI. Perfect for developers ready to explore the power of TypeScript, hardware integration, and the magic of LLMs to automate our life, so you can focus on what matters."
-        talk_video_url:
-        speakers:
-          speaker_11: *AlfonsoGraziano
-
-      ConversationsWithoutPromptsAIInTheWeb:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Conversations Without Prompts: AI in the Web"
-        talk_description: "Chatbots' popularity has soared in the last year with millions of eager users. Prompting has become a skill of the future, but not many know to utilize it well. What if we could move away from prompting and have the AI talk to us instead?<br /><br />In this talk, we'll explore the future of proactive AI in frontend development, building web extensions that continuously analyze user input and deliver real-time feedback straight into the browser. We'll discuss real-world use cases, such as enhancing user knowledge via personalized insights and streamlining user workflows"
-        talk_video_url:
-        speakers:
-          speaker_12: *AndreeaMiclaus
-
-      ObservabilityForFrontendEngineers:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Observability for Frontend Engineers"
-        talk_description: "Observability is the ability to measure a system's current state. <br />Backend engineers are becoming more familiar with the three pillars of observability and technologies such as OpenTelemetry that can be used to instrument applications and diagnose issues. <br /> Yet, in the front-end world, we're behind the curve. <br /><br />Join me as I explore the tools and techniques we can use to instrument, monitor, and diagnose issues in our production front-end applications. I'll cover RUM agents, the metrics and traces they provide, and how to combine them with backend tracing for a holistic picture. These concepts will be reinforced using the Elastic RUM agent and the OpenTelemetry Node.js agent. In addition, I'll cover Synthetic Monitoring and alerting in Observability platforms can help us detect issues impacting users in the UIs we build and maintain using Playwright and Elastic Synthetics."
-        talk_video_url:
-        speakers:
-          speaker_13: *CarlyRichmond
-
-      ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "A Deep Dive Into Advanced TypeScript: A Live Coding Expedition"
-        talk_description: "Get ready to embark on a journey into the depths of TypeScript. We'll be exploring the often overlooked, yet powerful, features that lie beneath the surface of this versatile language.<br /><br />But we're not just talking theory here – this exploration will be a hands-on experience. Each feature will be brought to life through real-world examples, all done in a live coding session. Join in as we shine a light on these secret TypeScript treasures and discover how they can elevate your coding skills to new heights.<br /><br />Recursive types, type permutations and a css validator written in typescript are just three of the cool topics we are going to cover during this talk."
-
-        talk_video_url:
-        speakers:
-          speaker_14: *ChristianWoerz
-
-      ? SolvingRealWorldDataFetchingChallengesWithNext.jsAndTanStackQueryAPragmaticCaseStudy
-      : item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Solving Real World Data Fetching Challenges with Next.js and TanStack Query: A Pragmatic Case Study"
-        talk_description: >
-          Building seamless user experiences can be challenging when APIs aren't designed with frontend needs in mind. This talk tackles common issues like excessive network requests, inefficient caching, resilience gaps, and bloated API payloads. Through a real-world fintech case study, we'll explore how to address these obstacles using tools like Next.js, TanStack Query, and the Backend-for-Frontend (BFF) design pattern. You'll learn how to evolve data-fetching strategies from basic implementations to robust solutions that balance performance and resilience, even under the constraints of APIs serving multiple third-party clients. The session highlights practical strategies for overcoming limitations and empowering frontend teams to work effectively, despite backend constraints.<br /><br />
-          We'll dive into a case where a fintech team I lead faced massive API payloads filled with unnecessary data, creating performance bottlenecks and resilience challenges. By adopting the BFF pattern and leveraging Next.js for server-side rendering and API routing, they reduced payload sizes and streamlined caching strategies. TanStack Query optimized server to client state management and minimized re-renders, ensuring scalability and better user experiences. With demos, this talk equips developers with actionable techniques to build resilient and scalable frontend solutions in real-world conditions.
-        talk_video_url:
-        speakers:
-          speaker_15: *FarisAziz
-
-      ThinkYouKnowTypeScriptThinkAgain:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Think you know TypeScript? Think again."
-        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we'll go beyond the familiar and dive into TypeScript's hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
-        talk_video_url:
-        speakers:
-          speaker_16: *GiuseppeFunicello
-
-      TypeScriptGymnasticsWhyAreTheySoPowerfulForYou:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "TypeScript Gymnastics: Why Are They So Powerful for You?"
-        talk_description: >
-          In TypeScript's type system is more than just a tool for catching errors—it's a way to solve complex problems with clean and reliable code. In this talk, we'll dive into advanced TypeScript techniques like mapped types, conditional types, and generics to handle even the trickiest type challenges.<br /><br />
-          You'll see how these techniques can help you extract, transform, and validate data types while keeping your code simple and maintainable. These "TypeScript gymnastics" aren't just for show—they're practical skills that make your systems stronger and easier to work with.<br /><br />
-          Come learn how to take full advantage of TypeScript's flexibility and power to build solutions that are as smart as they are safe.
-        talk_video_url:
-        speakers:
-          speaker_17: *LucaDelPuppo
-
-      DesignANewLanguageInJSFromZeroToAutocomplete:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Design a new language in JS: from zero to autocomplete"
-        talk_description: >
-          Inventing a new custom language can be a valuable alternative to propose to users rather than add new buttons to a UI.
-          How hard can it be? Or, where to start from?
-          In this talk we're walk through the design of a new simple language to analyze data, then embed it into the Monaco editor with all the advanced features like autocomplete.
-        talk_video_url:
-        speakers:
-          speaker_18: *MarcoLiberati
-
-      TheStateOfNode.js2025:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "The State of Node.js 2025"
-        talk_description:
-          "Despite exaggerated claims about its decline, Node.js is thriving. Its continued evolution pushes the boundaries of what the modern web can do. We'll start by debunking myths about Node.js and showcasing its recent enhancements and robust performance in the tech landscape.<br /><br />
-          The focus then shifts to Node.js's current role in server-side programming and cloud-native applications, emphasizing the vibrant community contributions that drive its progress. We'll also explore how integrating modern JavaScript features and the influence of emerging technologies are shaping Node.js's future, not signaling its end.<br /><br />
-          Concluding, the talk projects a bright future for Node.js, identifying growth areas and dispelling any misconceptions about its relevance in the evolving world of technology."
-        talk_video_url:
-        speakers:
-          speaker_19: *MatteoCollina
-
-      MicroFrontends,FiveYearsAfter:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Micro Frontends, Five Years After"
-        talk_description: >
-          Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
-          At DAZN, a global live sports streaming platform serving millions of users, our Micro Frontend journey began five years ago. Back then, it was just a single team venturing into this new territory. Since then, we've grown exponentially, experiencing failures, breakthroughs, and plenty of experimentation with different solutions, tools, and approaches. I'd love to share our story and what we've learned along the way.<br /><br />
-          This talk is dedicated to Mary, who's tired of waiting for other teams to align their releases. It's for Brent, who abandoned a migration from React to Svelte because convincing multiple teams felt impossible. And it's for Julie, who found herself on call during a live incident, scrambling to understand 17 code changes deployed just hours earlier. Sound familiar?
-
-        talk_video_url:
-        speakers:
-          speaker_20: *MaxGallo
-
-      LetsBuildK.I.T.T.WithJavaScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Let's build K.I.T.T. with JavaScript"
-        talk_description: "In the 1982 TV series 'knight rider', the idea of a talking, intelligent car was pure science fiction. Now, more than 40 years later, we have all the tools needed to bring this vision to life—right in the browser, using JavaScript. In this talk, we'll combine AI techniques like Retrieval-Augmented Generation (RAG) and function calling with advanced browser APIs like WebBluetooth to create an AI agent with personality, memory, and autonomous decision-making abilities. Leveraging WebAssembly, WebGPU, and other cutting-edge browser technologies, this entire experience happens directly in the browser, running fully offline and privacy preserving by default!"
-        talk_video_url:
-        speakers:
-          speaker_21: *NicoMartin
-
-      QwikGoFor100:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Qwik Go For 💯"
-        talk_description: >
-          The bar for high-performing websites keeps rising, and it's a critical factor for both user experience and search rankings. While achieving good scores is possible, it often requires significant effort and ongoing maintenance.<br /><br />
-          In this talk, I'll show how Qwik makes it easy to achieve top web metrics, automatically, even as your application scales.<br /><br />
-          We'll dive into Qwik's optimizer, explore the power of resumability and JS streaming, and uncover how its reactivity system works to deliver blazing-fast web experiences.
-        talk_video_url:
-        speakers:
-          speaker_22: *WoutMertens
-
-      ICantBelieveIt'sNotJavaScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "I Can't Believe It's Not JavaScript!"
-        talk_description: >
-          When building interactive features on a webpage, JavaScript is usually the way to go. However, with great JavaScript dependencies comes great website instability. Even a minor undefined element can cause your entire webpage to crash.<br /><br />
-          That's where going back to the basics comes in. Thanks to modern Web APIs, it's now possible to reduce JavaScript dependency on a website by swapping out JS components for their native HTML element or CSS feature counterparts.<br /><br />
-          In this talk, we'll take a look at how to use HTML and CSS to build simpler alternatives to popular JavaScript components such as accordions, modals, scroll transitions, carousels etc We'll also take a look at the performance and accessibility benefits and real-life applications and use-cases of these components.
-        talk_video_url:
-        speakers:
-          speaker_23: *JemimaAbu
-
-      UntanglingYourDependenciesAPatternForAWellKnitJavaScriptProject:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Untangling Your Dependencies: A Pattern for a Well-Knit JavaScript Project"
-        talk_description: >
-          'Alright I'll just upgrade Typescript, aaaaaand everything is broken now'<br /><br />
-          Building a complex JavaScript project can feel like a tangled mess of yarn. Fear not, fellow developer! This talk will provide you with the tools and techniques to gently untangle your dependencies and knit a well-structured, maintainable codebase. Our basket of tools include using npm why as our yarn needle, breaking down tasks into manageable stitches, strategically upgrading for progress, utilising branching techniques to keep your project from unraveling, and much more!<br /><br />
-          Join us as we unravel the secrets of dependency management, leaving you with a project that's not only functional but beautifully maintainable, stitch by stitch.
-        talk_video_url:
-        speakers:
-          speaker_24: *CarmenHuidobro
-
-      What'sNewForTheWebPlatform:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "What's new for the web platform"
-        talk_description: >
-          This Presentation will cover some of the latest Web Platform features available on the Web to ensure developers deliver a consistent, delightful and performance user experience for their site users.<br /><br />
-          From the latest UI Capabilities APIs to the latest Performance innovations available on Chrome browser.<br /><br />
-          Lastly an overview of what's new in Chrome DevTools to help developers better troubleshoot and improve their code.
-        talk_video_url:
-        speakers:
-          speaker_25: *GilbertoCocchi
-
-      CompilingJavaScriptAheadOfTime:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Compiling JavaScript ahead-of-time"
-        talk_description: >
-          Traditionally JavaScript has always been interpreted or just-in-time compiled, while this works great for web browsers, outside of them they can be non-ideal due to resource restrictions, security concerns, and more.<br /><br />
-          Compiling JS ahead-of-time is a new option offering exciting new ways to use JS efficiently: instead of shipping an entire runtime to the end user, why not compile it like C++ or Rust?<br /><br />
-          While ahead-of-time has it's own challenges, for some uses it makes much more sense than previous existing solutions thanks to its characteristics like tiny binary sizes and efficient resource usage.<br /><br />
-          Porffor is a new open-source project which does exactly this! With already promising results, it makes ahead-of-time increasingly considered as one of JS's future paths forward."
-        talk_video_url:
-        speakers:
-          speaker_26: *OliverMedhurst
 
       WhatsHappeningInTheJavaScriptEcosystem:
         item_type: "keynote"
         track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2025-04-07T09:40+02:00
+        end_datetime: 2025-04-07T10:30+02:00
         talk_title: "What's Happening in the JavaScript Ecosystem?"
         talk_description: >
           A comprehensive toolkit filled with strategies and insights to navigate and excel in the modern JavaScript landscape.<br /><br />
@@ -884,6 +535,384 @@ days:
         speakers:
           speaker_27: *FabioBiondi
           speaker_28: *GiorgioBoa
+      closing:
+        item_type: "service"
+        start_datetime: 2025-04-07T18:15+02:00
+        end_datetime: 2025-04-07T18:30+02:00
+        talk_title: "See you tomorrow!"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-04-07T13:00+02:00
+        end_datetime: 2025-04-07T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+      happy-hour:
+        item_type: "service"
+        start_datetime: 2025-04-07T18:25+02:00
+        end_datetime: 2025-04-07T19:30+02:00
+        talk_title: "Happy Hour"
+        service_icon: "glass"
+
+  day_2:
+    date: 2021-04-08T09:45+02:00
+    title: "Day 2"
+    talks:
+      # service
+      opening:
+        item_type: "service"
+        start_datetime: 2025-04-07T09:45+02:00
+        end_datetime: 2025-04-07T10:00+02:00
+        talk_title: "Opening by GrUSP"
+      closing:
+        item_type: "service"
+        start_datetime: 2025-04-07T18:15+02:00
+        end_datetime: 2025-04-07T18:30+02:00
+        talk_title: "See you tomorrow!"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-04-07T13:00+02:00
+        end_datetime: 2025-04-07T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+      happy-hour:
+        item_type: "service"
+        start_datetime: 2025-04-07T18:25+02:00
+        end_datetime: 2025-04-07T19:30+02:00
+        talk_title: "Happy Hour"
+        service_icon: "glass"
+
+      # talk
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2025-04-07T09:30+02:00
+      #   end_datetime: 2025-04-07T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Design System Visual Coverage in web and app (React Native) applications"
+        talk_description: "The need to show how much the Design System empowers our customers' interactions makes us color and count pixels straight in the browser instead of following a more typical static analysis approach.<br /><br />The desire to be independent of product teams and their always-packed OKRs leads us to count pixels in production when customers interact with the product.<br /><br />The requirement to not impact our customers' UX even if they use feature phones drives us to idle callbacks and web workers and consult a former Google Chrome engineer to lower the memory footprint as much as possible.<br /><br />Doing the same for React Native required more shenanigans (it's harder to inspect the rendered tree in a Mobile environment), and a safer approach, but it's also working!<br /><br />We will present our experience to show engineers and company leaders the measurable value of the Design System in our products. This approach works well for Preply (a B2C language learning portal) and WorkWave (B2B field service software), and other companies are approaching the topic the same way."
+        talk_video_url:
+        speakers:
+          speaker_1: *StefanoMagni
+          speaker_2: *MatteoRonchi
+
+      ? PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased
+      : item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Privacy-first in-browser Generative AI web apps: offline-ready, future-proof, standards-based"
+        talk_description: >-
+          Powerful generative AI features are quickly becoming a baseline in modern development.<br /> 
+          Potential blockers include privacy concerns, the need for a stable connection, and the costs 
+          associated with using or hosting models. However, we can now leverage generative AI directly 
+          in the browser on the user's device using emerging Web APIs like WebNN, combined with 
+          higher-level frameworks, for a better developer experience.<br /><br />In my session, I'll 
+          discuss the current state of in-browser ML and AI features, compare the main players, and 
+          show you how to start building an offline-ready, future-proof, standards-based web application.
+        talk_video_url:
+        speakers:
+          speaker_1: *MaximSalnikov
+
+      JavaScriptIsWeirdMythBustersSpecial:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "JavaScript is weird. MythBusters special."
+        talk_description: "In the era of Instagram, TikTok and YouTube it's easy to get lost in reels and shorts telling you tons of different things from the earth being flat, through tarot readings changing your life to JavaScript being weird. But is this really so? <br /><br />Let's break some popular cases down together and see if JavaScript really is weird or maybe it's just a myth getting more and more popular?"
+        talk_video_url:
+        speakers:
+          speaker_1: *MałgorzataJaneczek
+
+      AccessibilityPoweredByAI:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Accessibility powered by AI"
+        talk_description: "AI has taken the tech world by storm, but have you ever considered its transformative impact on digital accessibility? <br />Join us as we explore the dynamic world of AI-driven accessibility, unveiling real-world applications and revealing how renowned AI model GPT-3 and Github Copilot can be harnessed to enhance accessibility in your own applications. <br /><br />Get ready to dive into the future of inclusive design and empowerment!"
+        talk_video_url:
+        speakers:
+          speaker_1: *RamonaDomen
+
+      OhS***There'sANewAccessibilityLawAndI'mNotReady:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Oh S***! There's a new accessibility law and I'm not ready!"
+        talk_description: "As web developers, it's all too common to feel overwhelmed by constant changes in legal requirements. <br /> This talk dives into how we can respond effectively to the new European Accessibility Act without falling into a panic.<br /><br />We'll start by understanding why accessibility is so important - not only to avoid legal trouble but also to create a more inclusive digital world. Next, we'll break down the latest changes in regulations, and discuss ways to quickly assess whether your current website meets these new standards.<br />We'll talk about how you can identify and tackle critical issues right away, and we'll explore strategies for embedding accessibility into every stage of development.<br /><br />Ultimately, this talk is about taking what feels like a daunting challenge and making it manageable. With a little upfront effort and an incremental approach, you can become compliant and ensure that your apps work for everyone."
+        talk_video_url:
+        speakers:
+          speaker_6: *EmmaDawson
+
+      TheCostOfAbstractions:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "The Cost of Abstractions"
+        talk_description: >-
+          As programmers we use abstractions all the time, but do we ever care about their costs? <br />
+          And what does it even mean for an abstraction to have a *cost*? <br />
+          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
+          While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
+        talk_video_url:
+        speakers:
+          speaker_7: *MassimilianoMantione
+
+      MemoryLeaksInJavaScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Memory Leaks in JavaScript"
+        talk_description: "Discover what Memory Leaks are in practice. We'll use MemLab and Chrome DevTools to debug leakage in our sample application, and it'll no longer be a black box for Developers attending the session!"
+        talk_video_url:
+        speakers:
+          speaker_8: *DanielDanielecki
+
+      ThePathToNativeTypeScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "The Path to Native TypeScript"
+        talk_description: 'Imagine the convenience of executing TypeScript files directly with Node.js using "node file.ts". <br />Just a few years ago, this concept seemed like a distant dream. <br />Today, it stands as an exciting experimental feature. <br />This narrative dives into the journey of transforming this dream into a reality.<br /><br />Integrating TypeScript natively into Node.js posed significant challenges. These hurdles included managing TypeScript''s lack of strict semantic versioning guarantees and accommodating various TS flavors.<br /><br />Today, the experimental native TypeScript support in Node.js marks a transformative milestone. Beyond merely executing .ts files, it signifies a leap forward in JavaScript development.'
+        talk_video_url:
+        speakers:
+          speaker_9: *MarcoIppolito
+
+      JavaScriptIsAnOddball:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "JavaScript is an Oddball"
+        talk_description: >-
+          If you're a web developer, JavaScript is probably the language you're using the most. But it's also a language that never ceases to gives us surprises. How many times did we say "Huh, so it behaves like that!", or "I didn't know that API existed!", or just "This is so weird..."
+          <br /><br />And it's just that: JavaScript is weird. Being the language itself, with its quirkiness thoroughly examined in many occasions; or in the case of weird, less-known, or just DOM APIs with unusual signatures and implementations. But maybe some of these techniques, which could have been common knowledge, are still useful today and could solve our day-to-day problems.
+          <br /><br />Just don't use them in production! Not for now, at least..."
+        talk_video_url:
+        speakers:
+          speaker_10: *MassimoArtizzu
+
+      AutomateYourLifeBuildingAWorkflowEngineInTypeScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Automate Your Life: Building a Workflow Engine in TypeScript"
+        talk_description: "In a world full of repetitive tasks, why not automate the boring parts of your life? I'll show you how to build a custom Workflow Engine in TypeScript to streamline your day-to-day. We'll discuss practical applications and dive into the creation of multiple plugins, including integrations with IoT devices and Large Language Models, to handle complex tasks like crafting intelligent reminders, powering personalized routines, and even connecting with smart devices for seamless control.<br /><br  />We'll start by breaking down the basics of workflow automation, then dive into fun, real-world examples that blend software, hardware, and AI. Perfect for developers ready to explore the power of TypeScript, hardware integration, and the magic of LLMs to automate our life, so you can focus on what matters."
+        talk_video_url:
+        speakers:
+          speaker_11: *AlfonsoGraziano
+
+      ConversationsWithoutPromptsAIInTheWeb:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Conversations Without Prompts: AI in the Web"
+        talk_description: "Chatbots' popularity has soared in the last year with millions of eager users. Prompting has become a skill of the future, but not many know to utilize it well. What if we could move away from prompting and have the AI talk to us instead?<br /><br />In this talk, we'll explore the future of proactive AI in frontend development, building web extensions that continuously analyze user input and deliver real-time feedback straight into the browser. We'll discuss real-world use cases, such as enhancing user knowledge via personalized insights and streamlining user workflows"
+        talk_video_url:
+        speakers:
+          speaker_12: *AndreeaMiclaus
+
+      ObservabilityForFrontendEngineers:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Observability for Frontend Engineers"
+        talk_description: "Observability is the ability to measure a system's current state. <br />Backend engineers are becoming more familiar with the three pillars of observability and technologies such as OpenTelemetry that can be used to instrument applications and diagnose issues. <br /> Yet, in the front-end world, we're behind the curve. <br /><br />Join me as I explore the tools and techniques we can use to instrument, monitor, and diagnose issues in our production front-end applications. I'll cover RUM agents, the metrics and traces they provide, and how to combine them with backend tracing for a holistic picture. These concepts will be reinforced using the Elastic RUM agent and the OpenTelemetry Node.js agent. In addition, I'll cover Synthetic Monitoring and alerting in Observability platforms can help us detect issues impacting users in the UIs we build and maintain using Playwright and Elastic Synthetics."
+        talk_video_url:
+        speakers:
+          speaker_13: *CarlyRichmond
+
+      ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "A Deep Dive Into Advanced TypeScript: A Live Coding Expedition"
+        talk_description: "Get ready to embark on a journey into the depths of TypeScript. We'll be exploring the often overlooked, yet powerful, features that lie beneath the surface of this versatile language.<br /><br />But we're not just talking theory here – this exploration will be a hands-on experience. Each feature will be brought to life through real-world examples, all done in a live coding session. Join in as we shine a light on these secret TypeScript treasures and discover how they can elevate your coding skills to new heights.<br /><br />Recursive types, type permutations and a css validator written in typescript are just three of the cool topics we are going to cover during this talk."
+
+        talk_video_url:
+        speakers:
+          speaker_14: *ChristianWoerz
+
+      ? SolvingRealWorldDataFetchingChallengesWithNext.jsAndTanStackQueryAPragmaticCaseStudy
+      : item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Solving Real World Data Fetching Challenges with Next.js and TanStack Query: A Pragmatic Case Study"
+        talk_description: >
+          Building seamless user experiences can be challenging when APIs aren't designed with frontend needs in mind. This talk tackles common issues like excessive network requests, inefficient caching, resilience gaps, and bloated API payloads. Through a real-world fintech case study, we'll explore how to address these obstacles using tools like Next.js, TanStack Query, and the Backend-for-Frontend (BFF) design pattern. You'll learn how to evolve data-fetching strategies from basic implementations to robust solutions that balance performance and resilience, even under the constraints of APIs serving multiple third-party clients. The session highlights practical strategies for overcoming limitations and empowering frontend teams to work effectively, despite backend constraints.<br /><br />
+          We'll dive into a case where a fintech team I lead faced massive API payloads filled with unnecessary data, creating performance bottlenecks and resilience challenges. By adopting the BFF pattern and leveraging Next.js for server-side rendering and API routing, they reduced payload sizes and streamlined caching strategies. TanStack Query optimized server to client state management and minimized re-renders, ensuring scalability and better user experiences. With demos, this talk equips developers with actionable techniques to build resilient and scalable frontend solutions in real-world conditions.
+        talk_video_url:
+        speakers:
+          speaker_15: *FarisAziz
+
+      ThinkYouKnowTypeScriptThinkAgain:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Think you know TypeScript? Think again."
+        talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we'll go beyond the familiar and dive into TypeScript's hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
+        talk_video_url:
+        speakers:
+          speaker_16: *GiuseppeFunicello
+
+      TypeScriptGymnasticsWhyAreTheySoPowerfulForYou:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "TypeScript Gymnastics: Why Are They So Powerful for You?"
+        talk_description: >
+          In TypeScript's type system is more than just a tool for catching errors—it's a way to solve complex problems with clean and reliable code. In this talk, we'll dive into advanced TypeScript techniques like mapped types, conditional types, and generics to handle even the trickiest type challenges.<br /><br />
+          You'll see how these techniques can help you extract, transform, and validate data types while keeping your code simple and maintainable. These "TypeScript gymnastics" aren't just for show—they're practical skills that make your systems stronger and easier to work with.<br /><br />
+          Come learn how to take full advantage of TypeScript's flexibility and power to build solutions that are as smart as they are safe.
+        talk_video_url:
+        speakers:
+          speaker_17: *LucaDelPuppo
+
+      DesignANewLanguageInJSFromZeroToAutocomplete:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Design a new language in JS: from zero to autocomplete"
+        talk_description: >
+          Inventing a new custom language can be a valuable alternative to propose to users rather than add new buttons to a UI.
+          How hard can it be? Or, where to start from?
+          In this talk we're walk through the design of a new simple language to analyze data, then embed it into the Monaco editor with all the advanced features like autocomplete.
+        talk_video_url:
+        speakers:
+          speaker_18: *MarcoLiberati
+
+      TheStateOfNode.js2025:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "The State of Node.js 2025"
+        talk_description:
+          "Despite exaggerated claims about its decline, Node.js is thriving. Its continued evolution pushes the boundaries of what the modern web can do. We'll start by debunking myths about Node.js and showcasing its recent enhancements and robust performance in the tech landscape.<br /><br />
+          The focus then shifts to Node.js's current role in server-side programming and cloud-native applications, emphasizing the vibrant community contributions that drive its progress. We'll also explore how integrating modern JavaScript features and the influence of emerging technologies are shaping Node.js's future, not signaling its end.<br /><br />
+          Concluding, the talk projects a bright future for Node.js, identifying growth areas and dispelling any misconceptions about its relevance in the evolving world of technology."
+        talk_video_url:
+        speakers:
+          speaker_19: *MatteoCollina
+
+      MicroFrontends,FiveYearsAfter:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Micro Frontends, Five Years After"
+        talk_description: >
+          Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
+          At DAZN, a global live sports streaming platform serving millions of users, our Micro Frontend journey began five years ago. Back then, it was just a single team venturing into this new territory. Since then, we've grown exponentially, experiencing failures, breakthroughs, and plenty of experimentation with different solutions, tools, and approaches. I'd love to share our story and what we've learned along the way.<br /><br />
+          This talk is dedicated to Mary, who's tired of waiting for other teams to align their releases. It's for Brent, who abandoned a migration from React to Svelte because convincing multiple teams felt impossible. And it's for Julie, who found herself on call during a live incident, scrambling to understand 17 code changes deployed just hours earlier. Sound familiar?
+
+        talk_video_url:
+        speakers:
+          speaker_20: *MaxGallo
+
+      LetsBuildK.I.T.T.WithJavaScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Let's build K.I.T.T. with JavaScript"
+        talk_description: "In the 1982 TV series 'knight rider', the idea of a talking, intelligent car was pure science fiction. Now, more than 40 years later, we have all the tools needed to bring this vision to life—right in the browser, using JavaScript. In this talk, we'll combine AI techniques like Retrieval-Augmented Generation (RAG) and function calling with advanced browser APIs like WebBluetooth to create an AI agent with personality, memory, and autonomous decision-making abilities. Leveraging WebAssembly, WebGPU, and other cutting-edge browser technologies, this entire experience happens directly in the browser, running fully offline and privacy preserving by default!"
+        talk_video_url:
+        speakers:
+          speaker_21: *NicoMartin
+
+      QwikGoFor100:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Qwik Go For 💯"
+        talk_description: >
+          The bar for high-performing websites keeps rising, and it's a critical factor for both user experience and search rankings. While achieving good scores is possible, it often requires significant effort and ongoing maintenance.<br /><br />
+          In this talk, I'll show how Qwik makes it easy to achieve top web metrics, automatically, even as your application scales.<br /><br />
+          We'll dive into Qwik's optimizer, explore the power of resumability and JS streaming, and uncover how its reactivity system works to deliver blazing-fast web experiences.
+        talk_video_url:
+        speakers:
+          speaker_22: *WoutMertens
+
+      ICantBelieveIt'sNotJavaScript:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "I Can't Believe It's Not JavaScript!"
+        talk_description: >
+          When building interactive features on a webpage, JavaScript is usually the way to go. However, with great JavaScript dependencies comes great website instability. Even a minor undefined element can cause your entire webpage to crash.<br /><br />
+          That's where going back to the basics comes in. Thanks to modern Web APIs, it's now possible to reduce JavaScript dependency on a website by swapping out JS components for their native HTML element or CSS feature counterparts.<br /><br />
+          In this talk, we'll take a look at how to use HTML and CSS to build simpler alternatives to popular JavaScript components such as accordions, modals, scroll transitions, carousels etc We'll also take a look at the performance and accessibility benefits and real-life applications and use-cases of these components.
+        talk_video_url:
+        speakers:
+          speaker_23: *JemimaAbu
+
+      UntanglingYourDependenciesAPatternForAWellKnitJavaScriptProject:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Untangling Your Dependencies: A Pattern for a Well-Knit JavaScript Project"
+        talk_description: >
+          'Alright I'll just upgrade Typescript, aaaaaand everything is broken now'<br /><br />
+          Building a complex JavaScript project can feel like a tangled mess of yarn. Fear not, fellow developer! This talk will provide you with the tools and techniques to gently untangle your dependencies and knit a well-structured, maintainable codebase. Our basket of tools include using npm why as our yarn needle, breaking down tasks into manageable stitches, strategically upgrading for progress, utilising branching techniques to keep your project from unraveling, and much more!<br /><br />
+          Join us as we unravel the secrets of dependency management, leaving you with a project that's not only functional but beautifully maintainable, stitch by stitch.
+        talk_video_url:
+        speakers:
+          speaker_24: *CarmenHuidobro
+
+      What'sNewForTheWebPlatform:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "What's new for the web platform"
+        talk_description: >
+          This Presentation will cover some of the latest Web Platform features available on the Web to ensure developers deliver a consistent, delightful and performance user experience for their site users.<br /><br />
+          From the latest UI Capabilities APIs to the latest Performance innovations available on Chrome browser.<br /><br />
+          Lastly an overview of what's new in Chrome DevTools to help developers better troubleshoot and improve their code.
+        talk_video_url:
+        speakers:
+          speaker_25: *GilbertoCocchi
+
+      CompilingJavaScriptAheadOfTime:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-04-07T10:25+02:00
+        # end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Compiling JavaScript ahead-of-time"
+        talk_description: >
+          Traditionally JavaScript has always been interpreted or just-in-time compiled, while this works great for web browsers, outside of them they can be non-ideal due to resource restrictions, security concerns, and more.<br /><br />
+          Compiling JS ahead-of-time is a new option offering exciting new ways to use JS efficiently: instead of shipping an entire runtime to the end user, why not compile it like C++ or Rust?<br /><br />
+          While ahead-of-time has it's own challenges, for some uses it makes much more sense than previous existing solutions thanks to its characteristics like tiny binary sizes and efficient resource usage.<br /><br />
+          Porffor is a new open-source project which does exactly this! With already promising results, it makes ahead-of-time increasingly considered as one of JS's future paths forward."
+        talk_video_url:
+        speakers:
+          speaker_26: *OliverMedhurst
 
       ElegantByDesignJavaScriptInJavaScript:
         item_type: "talk"
