@@ -816,12 +816,45 @@ days:
           speaker_1: *StefanoMagni
           speaker_2: *MatteoRonchi
 
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-04-08T11:00+02:00
+        end_datetime: 2025-04-08T11:30+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+      ThePathToNativeTypeScript:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-08T11:30+02:00
+        end_datetime: 2025-04-08T12:10+02:00
+        talk_title: "The Path to Native TypeScript"
+        talk_description: 'Imagine the convenience of executing TypeScript files directly with Node.js using "node file.ts". <br />Just a few years ago, this concept seemed like a distant dream. <br />Today, it stands as an exciting experimental feature. <br />This narrative dives into the journey of transforming this dream into a reality.<br /><br />Integrating TypeScript natively into Node.js posed significant challenges. These hurdles included managing TypeScript''s lack of strict semantic versioning guarantees and accommodating various TS flavors.<br /><br />Today, the experimental native TypeScript support in Node.js marks a transformative milestone. Beyond merely executing .ts files, it signifies a leap forward in JavaScript development.'
+        talk_video_url:
+        speakers:
+          speaker_9: *MarcoIppolito
+
+      MicroFrontends,FiveYearsAfter:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-08T11:30+02:00
+        end_datetime: 2025-04-08T12:10+02:0
+        talk_title: "Micro Frontends, Five Years After"
+        talk_description: >
+          Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
+          At DAZN, a global live sports streaming platform serving millions of users, our Micro Frontend journey began five years ago. Back then, it was just a single team venturing into this new territory. Since then, we've grown exponentially, experiencing failures, breakthroughs, and plenty of experimentation with different solutions, tools, and approaches. I'd love to share our story and what we've learned along the way.<br /><br />
+          This talk is dedicated to Mary, who's tired of waiting for other teams to align their releases. It's for Brent, who abandoned a migration from React to Svelte because convincing multiple teams felt impossible. And it's for Julie, who found herself on call during a live incident, scrambling to understand 17 code changes deployed just hours earlier. Sound familiar?
+
+        talk_video_url:
+        speakers:
+          speaker_20: *MaxGallo
+
       closing:
         item_type: "service"
         start_datetime: 2025-04-08T18:15+02:00
         end_datetime: 2025-04-08T18:30+02:00
         talk_title: "See you tomorrow!"
-      coffee-morning:
+      coffee-afternoon:
         item_type: "service"
         start_datetime: 2025-04-08T13:00+02:00
         end_datetime: 2025-04-08T14:30+02:00
@@ -863,17 +896,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *MaximSalnikov
-
-      ThePathToNativeTypeScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "The Path to Native TypeScript"
-        talk_description: 'Imagine the convenience of executing TypeScript files directly with Node.js using "node file.ts". <br />Just a few years ago, this concept seemed like a distant dream. <br />Today, it stands as an exciting experimental feature. <br />This narrative dives into the journey of transforming this dream into a reality.<br /><br />Integrating TypeScript natively into Node.js posed significant challenges. These hurdles included managing TypeScript''s lack of strict semantic versioning guarantees and accommodating various TS flavors.<br /><br />Today, the experimental native TypeScript support in Node.js marks a transformative milestone. Beyond merely executing .ts files, it signifies a leap forward in JavaScript development.'
-        talk_video_url:
-        speakers:
-          speaker_9: *MarcoIppolito
 
       JavaScriptIsAnOddball:
         item_type: "talk"
@@ -922,21 +944,6 @@ days:
         talk_video_url:
         speakers:
           speaker_16: *GiuseppeFunicello
-
-      MicroFrontends,FiveYearsAfter:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-08T10:25+02:00
-        # end_datetime: 2025-04-08T11:05+02:00
-        talk_title: "Micro Frontends, Five Years After"
-        talk_description: >
-          Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
-          At DAZN, a global live sports streaming platform serving millions of users, our Micro Frontend journey began five years ago. Back then, it was just a single team venturing into this new territory. Since then, we've grown exponentially, experiencing failures, breakthroughs, and plenty of experimentation with different solutions, tools, and approaches. I'd love to share our story and what we've learned along the way.<br /><br />
-          This talk is dedicated to Mary, who's tired of waiting for other teams to align their releases. It's for Brent, who abandoned a migration from React to Svelte because convincing multiple teams felt impossible. And it's for Julie, who found herself on call during a live incident, scrambling to understand 17 code changes deployed just hours earlier. Sound familiar?
-
-        talk_video_url:
-        speakers:
-          speaker_20: *MaxGallo
 
       LetsBuildK.I.T.T.WithJavaScript:
         item_type: "talk"
