@@ -452,20 +452,19 @@ speaker_31: &ClaudioWunder
 speakers:
   speaker_27: *FabioBiondi
   speaker_28: *GiorgioBoa
+  speaker_24: *CarmenHuidobro
+  speaker_23: *JemimaAbu
+
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
   speaker_13: *CarlyRichmond
-  speaker_24: *CarmenHuidobro
   speaker_14: *ChristianWoerz
   speaker_31: *ClaudioWunder
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
-
   speaker_15: *FarisAziz
   speaker_25: *GilbertoCocchi
-
   speaker_16: *GiuseppeFunicello
-  speaker_23: *JemimaAbu
   speaker_17: *LucaDelPuppo
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
@@ -488,9 +487,9 @@ tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-#  track_2: &track_2
-#    id: 2
-#    title: "Track 2"
+  track_2: &track_2
+    id: 2
+    title: "Track 2"
 #  track_3: &track_3
 #    id: 3
 #    title: "Track 3 - fake track"
@@ -535,6 +534,33 @@ days:
         speakers:
           speaker_27: *FabioBiondi
           speaker_28: *GiorgioBoa
+      UntanglingYourDependenciesAPatternForAWellKnitJavaScriptProject:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T10:30+02:00
+        end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "Untangling Your Dependencies: A Pattern for a Well-Knit JavaScript Project"
+        talk_description: >
+          'Alright I'll just upgrade Typescript, aaaaaand everything is broken now'<br /><br />
+          Building a complex JavaScript project can feel like a tangled mess of yarn. Fear not, fellow developer! This talk will provide you with the tools and techniques to gently untangle your dependencies and knit a well-structured, maintainable codebase. Our basket of tools include using npm why as our yarn needle, breaking down tasks into manageable stitches, strategically upgrading for progress, utilising branching techniques to keep your project from unraveling, and much more!<br /><br />
+          Join us as we unravel the secrets of dependency management, leaving you with a project that's not only functional but beautifully maintainable, stitch by stitch.
+        talk_video_url:
+        speakers:
+          speaker_24: *CarmenHuidobro
+
+      ICantBelieveIt'sNotJavaScript:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T10:30+02:00
+        end_datetime: 2025-04-07T11:05+02:00
+        talk_title: "I Can't Believe It's Not JavaScript!"
+        talk_description: >
+          When building interactive features on a webpage, JavaScript is usually the way to go. However, with great JavaScript dependencies comes great website instability. Even a minor undefined element can cause your entire webpage to crash.<br /><br />
+          That's where going back to the basics comes in. Thanks to modern Web APIs, it's now possible to reduce JavaScript dependency on a website by swapping out JS components for their native HTML element or CSS feature counterparts.<br /><br />
+          In this talk, we'll take a look at how to use HTML and CSS to build simpler alternatives to popular JavaScript components such as accordions, modals, scroll transitions, carousels etc We'll also take a look at the performance and accessibility benefits and real-life applications and use-cases of these components.
+        talk_video_url:
+        speakers:
+          speaker_23: *JemimaAbu
       closing:
         item_type: "service"
         start_datetime: 2025-04-07T18:15+02:00
