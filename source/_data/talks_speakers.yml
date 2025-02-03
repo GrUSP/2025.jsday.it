@@ -469,23 +469,18 @@ speakers:
   speaker_8: *DanielDanielecki
   speaker_5: *RamonaDomen
   speaker_30: *MelindaSeckington
+  speaker_19: *MatteoCollina
+  speaker_1: *StefanoMagni
+  speaker_2: *MatteoRonchi
 
   speaker_14: *ChristianWoerz
   speaker_31: *ClaudioWunder
-
   speaker_16: *GiuseppeFunicello
-
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
-
-  speaker_19: *MatteoCollina
-  speaker_2: *MatteoRonchi
   speaker_20: *MaxGallo
   speaker_3: *MaximSalnikov
-
   speaker_21: *NicoMartin
-
-  speaker_1: *StefanoMagni
   speaker_29: *PaoloCaressa
 
 tracks:
@@ -795,40 +790,25 @@ days:
         speakers:
           speaker_30: *MelindaSeckington
 
-      closing:
-        item_type: "service"
-        start_datetime: 2025-04-07T18:15+02:00
-        end_datetime: 2025-04-07T18:30+02:00
-        talk_title: "See you tomorrow!"
-      coffee-morning:
-        item_type: "service"
-        start_datetime: 2025-04-07T13:00+02:00
-        end_datetime: 2025-04-07T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2025-04-07T18:25+02:00
-        end_datetime: 2025-04-07T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
-
-      # talk
-      # keynote:
-      #   item_type: "keynote"
-      #   track: *track_1
-      #   start_datetime: 2025-04-07T09:30+02:00
-      #   end_datetime: 2025-04-07T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
-      DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications:
+      TheStateOfNode.js2025:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        start_datetime: 2025-04-08T10:25+02:00
+        end_datetime: 2025-04-08T11:00+02:00
+        talk_title: "The State of Node.js 2025"
+        talk_description:
+          "Despite exaggerated claims about its decline, Node.js is thriving. Its continued evolution pushes the boundaries of what the modern web can do. We'll start by debunking myths about Node.js and showcasing its recent enhancements and robust performance in the tech landscape.<br /><br />
+          The focus then shifts to Node.js's current role in server-side programming and cloud-native applications, emphasizing the vibrant community contributions that drive its progress. We'll also explore how integrating modern JavaScript features and the influence of emerging technologies are shaping Node.js's future, not signaling its end.<br /><br />
+          Concluding, the talk projects a bright future for Node.js, identifying growth areas and dispelling any misconceptions about its relevance in the evolving world of technology."
+        talk_video_url:
+        speakers:
+          speaker_19: *MatteoCollina
+
+      DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-08T10:25+02:00
+        end_datetime: 2025-04-08T11:00+02:00
         talk_title: "Design System Visual Coverage in web and app (React Native) applications"
         talk_description: "The need to show how much the Design System empowers our customers' interactions makes us color and count pixels straight in the browser instead of following a more typical static analysis approach.<br /><br />The desire to be independent of product teams and their always-packed OKRs leads us to count pixels in production when customers interact with the product.<br /><br />The requirement to not impact our customers' UX even if they use feature phones drives us to idle callbacks and web workers and consult a former Google Chrome engineer to lower the memory footprint as much as possible.<br /><br />Doing the same for React Native required more shenanigans (it's harder to inspect the rendered tree in a Mobile environment), and a safer approach, but it's also working!<br /><br />We will present our experience to show engineers and company leaders the measurable value of the Design System in our products. This approach works well for Preply (a B2C language learning portal) and WorkWave (B2B field service software), and other companies are approaching the topic the same way."
         talk_video_url:
@@ -836,11 +816,41 @@ days:
           speaker_1: *StefanoMagni
           speaker_2: *MatteoRonchi
 
+      closing:
+        item_type: "service"
+        start_datetime: 2025-04-08T18:15+02:00
+        end_datetime: 2025-04-08T18:30+02:00
+        talk_title: "See you tomorrow!"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-04-08T13:00+02:00
+        end_datetime: 2025-04-08T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+      happy-hour:
+        item_type: "service"
+        start_datetime: 2025-04-08T18:25+02:00
+        end_datetime: 2025-04-08T19:30+02:00
+        talk_title: "Happy Hour"
+        service_icon: "glass"
+
+      # talk
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2025-04-08T09:30+02:00
+      #   end_datetime: 2025-04-08T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+
       ? PrivacyFirstInBrowserGenerativeAIWebAppsOfflineReadyFutureProofStandardsBased
       : item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "Privacy-first in-browser Generative AI web apps: offline-ready, future-proof, standards-based"
         talk_description: >-
           Powerful generative AI features are quickly becoming a baseline in modern development.<br /> 
@@ -857,8 +867,8 @@ days:
       ThePathToNativeTypeScript:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "The Path to Native TypeScript"
         talk_description: 'Imagine the convenience of executing TypeScript files directly with Node.js using "node file.ts". <br />Just a few years ago, this concept seemed like a distant dream. <br />Today, it stands as an exciting experimental feature. <br />This narrative dives into the journey of transforming this dream into a reality.<br /><br />Integrating TypeScript natively into Node.js posed significant challenges. These hurdles included managing TypeScript''s lack of strict semantic versioning guarantees and accommodating various TS flavors.<br /><br />Today, the experimental native TypeScript support in Node.js marks a transformative milestone. Beyond merely executing .ts files, it signifies a leap forward in JavaScript development.'
         talk_video_url:
@@ -868,8 +878,8 @@ days:
       JavaScriptIsAnOddball:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "JavaScript is an Oddball"
         talk_description: >-
           If you're a web developer, JavaScript is probably the language you're using the most. But it's also a language that never ceases to gives us surprises. How many times did we say "Huh, so it behaves like that!", or "I didn't know that API existed!", or just "This is so weird..."
@@ -882,8 +892,8 @@ days:
       ObservabilityForFrontendEngineers:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "Observability for Frontend Engineers"
         talk_description: "Observability is the ability to measure a system's current state. <br />Backend engineers are becoming more familiar with the three pillars of observability and technologies such as OpenTelemetry that can be used to instrument applications and diagnose issues. <br /> Yet, in the front-end world, we're behind the curve. <br /><br />Join me as I explore the tools and techniques we can use to instrument, monitor, and diagnose issues in our production front-end applications. I'll cover RUM agents, the metrics and traces they provide, and how to combine them with backend tracing for a holistic picture. These concepts will be reinforced using the Elastic RUM agent and the OpenTelemetry Node.js agent. In addition, I'll cover Synthetic Monitoring and alerting in Observability platforms can help us detect issues impacting users in the UIs we build and maintain using Playwright and Elastic Synthetics."
         talk_video_url:
@@ -893,8 +903,8 @@ days:
       ADeepDiveIntoAdvancedTypeScriptALiveCodingExpedition:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "A Deep Dive Into Advanced TypeScript: A Live Coding Expedition"
         talk_description: "Get ready to embark on a journey into the depths of TypeScript. We'll be exploring the often overlooked, yet powerful, features that lie beneath the surface of this versatile language.<br /><br />But we're not just talking theory here – this exploration will be a hands-on experience. Each feature will be brought to life through real-world examples, all done in a live coding session. Join in as we shine a light on these secret TypeScript treasures and discover how they can elevate your coding skills to new heights.<br /><br />Recursive types, type permutations and a css validator written in typescript are just three of the cool topics we are going to cover during this talk."
 
@@ -905,33 +915,19 @@ days:
       ThinkYouKnowTypeScriptThinkAgain:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "Think you know TypeScript? Think again."
         talk_description: "Want to impress your colleagues, family, and friends with your newfound TypeScript mastery? Join me for a journey that will challenge your understanding and leave you with skills that are sure to turn heads and elevate your development game. In this talk, we'll go beyond the familiar and dive into TypeScript's hidden tricks and advanced features that can transform the way you write code. Explore powerful type transformations, clever utility types, and surprising techniques to optimize your projects in ways you never thought possible."
         talk_video_url:
         speakers:
           speaker_16: *GiuseppeFunicello
 
-      TheStateOfNode.js2025:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "The State of Node.js 2025"
-        talk_description:
-          "Despite exaggerated claims about its decline, Node.js is thriving. Its continued evolution pushes the boundaries of what the modern web can do. We'll start by debunking myths about Node.js and showcasing its recent enhancements and robust performance in the tech landscape.<br /><br />
-          The focus then shifts to Node.js's current role in server-side programming and cloud-native applications, emphasizing the vibrant community contributions that drive its progress. We'll also explore how integrating modern JavaScript features and the influence of emerging technologies are shaping Node.js's future, not signaling its end.<br /><br />
-          Concluding, the talk projects a bright future for Node.js, identifying growth areas and dispelling any misconceptions about its relevance in the evolving world of technology."
-        talk_video_url:
-        speakers:
-          speaker_19: *MatteoCollina
-
       MicroFrontends,FiveYearsAfter:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "Micro Frontends, Five Years After"
         talk_description: >
           Micro Frontends may have a relatively new name, but the concepts behind them have been around for much longer. Some call them the future of Frontend Development, and many recognize their potential to address one of today's biggest web development challenges: scaling the frontend of large applications.<br /><br />
@@ -945,8 +941,8 @@ days:
       LetsBuildK.I.T.T.WithJavaScript:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "Let's build K.I.T.T. with JavaScript"
         talk_description: "In the 1982 TV series 'knight rider', the idea of a talking, intelligent car was pure science fiction. Now, more than 40 years later, we have all the tools needed to bring this vision to life—right in the browser, using JavaScript. In this talk, we'll combine AI techniques like Retrieval-Augmented Generation (RAG) and function calling with advanced browser APIs like WebBluetooth to create an AI agent with personality, memory, and autonomous decision-making abilities. Leveraging WebAssembly, WebGPU, and other cutting-edge browser technologies, this entire experience happens directly in the browser, running fully offline and privacy preserving by default!"
         talk_video_url:
@@ -956,8 +952,8 @@ days:
       ICantBelieveIt'sNotJavaScript:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "I Can't Believe It's Not JavaScript!"
         talk_description: >
           When building interactive features on a webpage, JavaScript is usually the way to go. However, with great JavaScript dependencies comes great website instability. Even a minor undefined element can cause your entire webpage to crash.<br /><br />
@@ -970,8 +966,8 @@ days:
       UntanglingYourDependenciesAPatternForAWellKnitJavaScriptProject:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
+        # start_datetime: 2025-04-08T10:25+02:00
+        # end_datetime: 2025-04-08T11:05+02:00
         talk_title: "Untangling Your Dependencies: A Pattern for a Well-Knit JavaScript Project"
         talk_description: >
           'Alright I'll just upgrade Typescript, aaaaaand everything is broken now'<br /><br />
