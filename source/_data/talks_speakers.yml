@@ -454,6 +454,8 @@ speakers:
   speaker_28: *GiorgioBoa
   speaker_24: *CarmenHuidobro
   speaker_23: *JemimaAbu
+  speaker_25: *GilbertoCocchi
+  speaker_18: *MarcoLiberati
 
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
@@ -463,12 +465,12 @@ speakers:
   speaker_8: *DanielDanielecki
   speaker_6: *EmmaDawson
   speaker_15: *FarisAziz
-  speaker_25: *GilbertoCocchi
+
   speaker_16: *GiuseppeFunicello
   speaker_17: *LucaDelPuppo
   speaker_4: *MałgorzataJaneczek
   speaker_9: *MarcoIppolito
-  speaker_18: *MarcoLiberati
+
   speaker_10: *MassimoArtizzu
   speaker_7: *MassimilianoMantione
   speaker_19: *MatteoCollina
@@ -561,23 +563,53 @@ days:
         talk_video_url:
         speakers:
           speaker_23: *JemimaAbu
+
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2025-04-07T11:15+02:00
+        end_datetime: 2025-04-07T11:35+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+      WhatsNewForTheWebPlatform:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T11:35+02:00
+        end_datetime: 2025-04-07T12:15+02:00
+        talk_title: "What's new for the web platform"
+        talk_description: >
+          This Presentation will cover some of the latest Web Platform features available on the Web to ensure developers deliver a consistent, delightful and performance user experience for their site users.<br /><br />
+          From the latest UI Capabilities APIs to the latest Performance innovations available on Chrome browser.<br /><br />
+          Lastly an overview of what's new in Chrome DevTools to help developers better troubleshoot and improve their code.
+        talk_video_url:
+        speakers:
+          speaker_25: *GilbertoCocchi
+
+      DesignANewLanguageInJSFromZeroToAutocomplete:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T11:35+02:00
+        end_datetime: 2025-04-07T12:15+02:00
+        talk_title: "Design a new language in JS: from zero to autocomplete"
+        talk_description: >
+          Inventing a new custom language can be a valuable alternative to propose to users rather than add new buttons to a UI.
+          How hard can it be? Or, where to start from?
+          In this talk we're walk through the design of a new simple language to analyze data, then embed it into the Monaco editor with all the advanced features like autocomplete.
+        talk_video_url:
+        speakers:
+          speaker_18: *MarcoLiberati
+
       closing:
         item_type: "service"
         start_datetime: 2025-04-07T18:15+02:00
         end_datetime: 2025-04-07T18:30+02:00
         talk_title: "See you tomorrow!"
-      coffee-morning:
+      lunch:
         item_type: "service"
-        start_datetime: 2025-04-07T13:00+02:00
-        end_datetime: 2025-04-07T14:30+02:00
+        start_datetime: 2025-04-07T12:50+02:00
+        end_datetime: 2025-04-07T14:20+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        start_datetime: 2025-04-07T18:25+02:00
-        end_datetime: 2025-04-07T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
 
   day_2:
     date: 2021-04-08T09:45+02:00
@@ -815,20 +847,6 @@ days:
         speakers:
           speaker_17: *LucaDelPuppo
 
-      DesignANewLanguageInJSFromZeroToAutocomplete:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Design a new language in JS: from zero to autocomplete"
-        talk_description: >
-          Inventing a new custom language can be a valuable alternative to propose to users rather than add new buttons to a UI.
-          How hard can it be? Or, where to start from?
-          In this talk we're walk through the design of a new simple language to analyze data, then embed it into the Monaco editor with all the advanced features like autocomplete.
-        talk_video_url:
-        speakers:
-          speaker_18: *MarcoLiberati
-
       TheStateOfNode.js2025:
         item_type: "talk"
         track: *track_1
@@ -910,20 +928,6 @@ days:
         talk_video_url:
         speakers:
           speaker_24: *CarmenHuidobro
-
-      What'sNewForTheWebPlatform:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "What's new for the web platform"
-        talk_description: >
-          This Presentation will cover some of the latest Web Platform features available on the Web to ensure developers deliver a consistent, delightful and performance user experience for their site users.<br /><br />
-          From the latest UI Capabilities APIs to the latest Performance innovations available on Chrome browser.<br /><br />
-          Lastly an overview of what's new in Chrome DevTools to help developers better troubleshoot and improve their code.
-        talk_video_url:
-        speakers:
-          speaker_25: *GilbertoCocchi
 
       CompilingJavaScriptAheadOfTime:
         item_type: "talk"
