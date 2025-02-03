@@ -464,14 +464,15 @@ speakers:
   speaker_7: *MassimilianoMantione
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
+  speaker_4: *MałgorzataJaneczek
+  speaker_6: *EmmaDawson
 
   speaker_14: *ChristianWoerz
   speaker_31: *ClaudioWunder
   speaker_8: *DanielDanielecki
-  speaker_6: *EmmaDawson
 
   speaker_16: *GiuseppeFunicello
-  speaker_4: *MałgorzataJaneczek
+
   speaker_9: *MarcoIppolito
   speaker_10: *MassimoArtizzu
 
@@ -717,6 +718,28 @@ days:
         speakers:
           speaker_12: *AndreeaMiclaus
 
+      JavaScriptIsWeirdMythBustersSpecial:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T16:45+02:00
+        end_datetime: 2025-04-07T17:25+02:00
+        talk_title: "JavaScript is weird. MythBusters special."
+        talk_description: "In the era of Instagram, TikTok and YouTube it's easy to get lost in reels and shorts telling you tons of different things from the earth being flat, through tarot readings changing your life to JavaScript being weird. But is this really so? <br /><br />Let's break some popular cases down together and see if JavaScript really is weird or maybe it's just a myth getting more and more popular?"
+        talk_video_url:
+        speakers:
+          speaker_1: *MałgorzataJaneczek
+
+      OhS***There'sANewAccessibilityLawAndI'mNotReady:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T16:45+02:00
+        end_datetime: 2025-04-07T17:25+02:00
+        talk_title: "Oh S***! There's a new accessibility law and I'm not ready!"
+        talk_description: "As web developers, it's all too common to feel overwhelmed by constant changes in legal requirements. <br /> This talk dives into how we can respond effectively to the new European Accessibility Act without falling into a panic.<br /><br />We'll start by understanding why accessibility is so important - not only to avoid legal trouble but also to create a more inclusive digital world. Next, we'll break down the latest changes in regulations, and discuss ways to quickly assess whether your current website meets these new standards.<br />We'll talk about how you can identify and tackle critical issues right away, and we'll explore strategies for embedding accessibility into every stage of development.<br /><br />Ultimately, this talk is about taking what feels like a daunting challenge and making it manageable. With a little upfront effort and an incremental approach, you can become compliant and ensure that your apps work for everyone."
+        talk_video_url:
+        speakers:
+          speaker_6: *EmmaDawson
+
       closing:
         item_type: "service"
         start_datetime: 2025-04-07T18:15+02:00
@@ -792,17 +815,6 @@ days:
         speakers:
           speaker_1: *MaximSalnikov
 
-      JavaScriptIsWeirdMythBustersSpecial:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "JavaScript is weird. MythBusters special."
-        talk_description: "In the era of Instagram, TikTok and YouTube it's easy to get lost in reels and shorts telling you tons of different things from the earth being flat, through tarot readings changing your life to JavaScript being weird. But is this really so? <br /><br />Let's break some popular cases down together and see if JavaScript really is weird or maybe it's just a myth getting more and more popular?"
-        talk_video_url:
-        speakers:
-          speaker_1: *MałgorzataJaneczek
-
       AccessibilityPoweredByAI:
         item_type: "talk"
         track: *track_1
@@ -813,17 +825,6 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *RamonaDomen
-
-      OhS***There'sANewAccessibilityLawAndI'mNotReady:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Oh S***! There's a new accessibility law and I'm not ready!"
-        talk_description: "As web developers, it's all too common to feel overwhelmed by constant changes in legal requirements. <br /> This talk dives into how we can respond effectively to the new European Accessibility Act without falling into a panic.<br /><br />We'll start by understanding why accessibility is so important - not only to avoid legal trouble but also to create a more inclusive digital world. Next, we'll break down the latest changes in regulations, and discuss ways to quickly assess whether your current website meets these new standards.<br />We'll talk about how you can identify and tackle critical issues right away, and we'll explore strategies for embedding accessibility into every stage of development.<br /><br />Ultimately, this talk is about taking what feels like a daunting challenge and making it manageable. With a little upfront effort and an incremental approach, you can become compliant and ensure that your apps work for everyone."
-        talk_video_url:
-        speakers:
-          speaker_6: *EmmaDawson
 
       MemoryLeaksInJavaScript:
         item_type: "talk"
