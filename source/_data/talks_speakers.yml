@@ -456,10 +456,11 @@ speakers:
   speaker_23: *JemimaAbu
   speaker_25: *GilbertoCocchi
   speaker_18: *MarcoLiberati
+  speaker_26: *OliverMedhurst
+  speaker_13: *CarlyRichmond
 
   speaker_11: *AlfonsoGraziano
   speaker_12: *AndreeaMiclaus
-  speaker_13: *CarlyRichmond
   speaker_14: *ChristianWoerz
   speaker_31: *ClaudioWunder
   speaker_8: *DanielDanielecki
@@ -479,7 +480,7 @@ speakers:
   speaker_3: *MaximSalnikov
   speaker_30: *MelindaSeckington
   speaker_21: *NicoMartin
-  speaker_26: *OliverMedhurst
+
   speaker_29: *PaoloCaressa
   speaker_5: *RamonaDomen
   speaker_1: *StefanoMagni
@@ -598,6 +599,32 @@ days:
         talk_video_url:
         speakers:
           speaker_18: *MarcoLiberati
+
+      CompilingJavaScriptAheadOfTime:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-04-07T12:15+02:00
+        end_datetime: 2025-04-07T12:50+02:00
+        talk_title: "Compiling JavaScript ahead-of-time"
+        talk_description: >
+          Traditionally JavaScript has always been interpreted or just-in-time compiled, while this works great for web browsers, outside of them they can be non-ideal due to resource restrictions, security concerns, and more.<br /><br />
+          Compiling JS ahead-of-time is a new option offering exciting new ways to use JS efficiently: instead of shipping an entire runtime to the end user, why not compile it like C++ or Rust?<br /><br />
+          While ahead-of-time has it's own challenges, for some uses it makes much more sense than previous existing solutions thanks to its characteristics like tiny binary sizes and efficient resource usage.<br /><br />
+          Porffor is a new open-source project which does exactly this! With already promising results, it makes ahead-of-time increasingly considered as one of JS's future paths forward."
+        talk_video_url:
+        speakers:
+          speaker_26: *OliverMedhurst
+
+      ObservabilityForFrontendEngineers:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2025-04-07T12:15+02:00
+        end_datetime: 2025-04-07T12:50+02:00
+        talk_title: "Observability for Frontend Engineers"
+        talk_description: "Observability is the ability to measure a system's current state. <br />Backend engineers are becoming more familiar with the three pillars of observability and technologies such as OpenTelemetry that can be used to instrument applications and diagnose issues. <br /> Yet, in the front-end world, we're behind the curve. <br /><br />Join me as I explore the tools and techniques we can use to instrument, monitor, and diagnose issues in our production front-end applications. I'll cover RUM agents, the metrics and traces they provide, and how to combine them with backend tracing for a holistic picture. These concepts will be reinforced using the Elastic RUM agent and the OpenTelemetry Node.js agent. In addition, I'll cover Synthetic Monitoring and alerting in Observability platforms can help us detect issues impacting users in the UIs we build and maintain using Playwright and Elastic Synthetics."
+        talk_video_url:
+        speakers:
+          speaker_13: *CarlyRichmond
 
       closing:
         item_type: "service"
@@ -928,21 +955,6 @@ days:
         talk_video_url:
         speakers:
           speaker_24: *CarmenHuidobro
-
-      CompilingJavaScriptAheadOfTime:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-04-07T10:25+02:00
-        # end_datetime: 2025-04-07T11:05+02:00
-        talk_title: "Compiling JavaScript ahead-of-time"
-        talk_description: >
-          Traditionally JavaScript has always been interpreted or just-in-time compiled, while this works great for web browsers, outside of them they can be non-ideal due to resource restrictions, security concerns, and more.<br /><br />
-          Compiling JS ahead-of-time is a new option offering exciting new ways to use JS efficiently: instead of shipping an entire runtime to the end user, why not compile it like C++ or Rust?<br /><br />
-          While ahead-of-time has it's own challenges, for some uses it makes much more sense than previous existing solutions thanks to its characteristics like tiny binary sizes and efficient resource usage.<br /><br />
-          Porffor is a new open-source project which does exactly this! With already promising results, it makes ahead-of-time increasingly considered as one of JS's future paths forward."
-        talk_video_url:
-        speakers:
-          speaker_26: *OliverMedhurst
 
       ElegantByDesignJavaScriptInJavaScript:
         item_type: "talk"
