@@ -2,14 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2025.jsday.it/welcome/about.html</loc>
+    <loc>https://2025.jsday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2025-02-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/workshop/workshop_2.html</loc>
+    <loc>https://2025.jsday.it/welcome/index.html</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.jsday.it/workshop/index.html</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.jsday.it/welcome/safety.html</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.jsday.it/welcome/coc.html</loc>
+    
+    <lastmod>2025-02-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.jsday.it/welcome/scholarships.html</loc>
     
     <lastmod>2025-02-04</lastmod>
     
@@ -30,28 +58,7 @@
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/welcome/scholarships.html</loc>
-    
-    <lastmod>2025-02-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.jsday.it/welcome/safety.html</loc>
-    
-    <lastmod>2025-02-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.jsday.it/workshop/index.html</loc>
-    
-    <lastmod>2025-02-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.jsday.it/welcome/index.html</loc>
+    <loc>https://2025.jsday.it/sponsor/index.html</loc>
     
     <lastmod>2025-02-04</lastmod>
     
@@ -65,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/welcome/coc.html</loc>
+    <loc>https://2025.jsday.it/talks_speakers/index.html</loc>
     
     <lastmod>2025-02-04</lastmod>
     
@@ -79,14 +86,7 @@
   </url>
   
   <url>
-    <loc>https://2025.jsday.it/talks_speakers/index.html</loc>
-    
-    <lastmod>2025-02-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.jsday.it/sponsor/index.html</loc>
+    <loc>https://2025.jsday.it/welcome/about.html</loc>
     
     <lastmod>2025-02-04</lastmod>
     
