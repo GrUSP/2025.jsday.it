@@ -194,9 +194,9 @@ block content
                                 if(speaker.speaker_role)
                                   span !{speaker.speaker_role}
 
-                            if(row_item.talk_description)
-                              br
-                              | !{row_item.talk_description}
+                            //- if(row_item.talk_description)
+                            //-   br
+                            //-   | !{row_item.talk_description}
 
                         if(row_item.item_type == 'talk' || row_item.item_type == 'workshop' || row_item.item_type == 'other')
                           - current_item_track = row_item['track']
