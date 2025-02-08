@@ -148,7 +148,7 @@ conference:
   sponsors_visible: true
   sponsor_title_home: "Thanks to our amazing sponsors"
   # this is for the Community partners section in home page
-  community_partners: false
+  community_partners: true
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
