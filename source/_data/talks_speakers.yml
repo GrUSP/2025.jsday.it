@@ -464,6 +464,20 @@ speaker_32: &JoFranchetti
   speaker_mastodon_url: "https://mastodon.social/@thisisjofrank"
   is_mc: true
 
+speaker_33: &ArisMarkogiannakis
+  speaker_in_speaker_lists: true
+  speaker_name: "Aris Markogiannakis"
+  speaker_pic_filename: "aris-markogiannakis.png"
+  speaker_role: "Senior Frontend Developer & CityJS Founder/Organiser"
+  speaker_bio: >
+    Aris is a Senior Frontend Developer, a Lecturer and a community Leader in London (and the world), JavaScript Community organiser and the creator of CityJS Conference. He has been teaching for the past 14 years at City, University of London and other institutions around London for the last couple years. Currently working for Foolproof/Zensar as a Teach Lead!
+  speaker_github_url: ""
+  speaker_twitter_url: "https://x.com/arismarko"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/aris-markogiannakis-95b2a5/"
+  speaker_mastodon_url: ""
+  is_mc: true
+
 speakers:
   speaker_27: *FabioBiondi
   speaker_28: *GiorgioBoa
@@ -497,7 +511,7 @@ speakers:
   speaker_14: *ChristianWoerz
   speaker_29: *PaoloCaressa
   speaker_32: *JoFranchetti
-
+  speaker_33: *ArisMarkogiannakis
 tracks:
   track_1: &track_1
     id: 1
