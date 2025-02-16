@@ -449,6 +449,21 @@ speaker_31: &ClaudioWunder
   speaker_linkedin_url: "https://linkedin.com/in/claudio-wunder"
   speaker_mastodon_url: ""
   is_mc: false
+
+speaker_32: &JoFranchetti
+  speaker_in_speaker_lists: true
+  speaker_name: "Jo Franchetti"
+  speaker_pic_filename: "jo-franchetti.jpg"
+  speaker_role: "Developer Advocate @ Deno"
+  speaker_bio: >
+    I am a DevRel Engineer at Deno. I am passionate about improving developer experience, teaching good use of JS and TS and building sparkly, wearable, internet connected tech. I mentor junior developers, advocate for mental health awareness and am devoted to improving the diversity and inclusivity of the tech industry
+  speaker_github_url: "https://github.com/thisisjofrank"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/thisisjofrank/"
+  speaker_mastodon_url: "https://mastodon.social/@thisisjofrank"
+  is_mc: true
+
 speakers:
   speaker_27: *FabioBiondi
   speaker_28: *GiorgioBoa
@@ -481,6 +496,7 @@ speakers:
   speaker_21: *NicoMartin
   speaker_14: *ChristianWoerz
   speaker_29: *PaoloCaressa
+  speaker_32: *JoFranchetti
 
 tracks:
   track_1: &track_1
