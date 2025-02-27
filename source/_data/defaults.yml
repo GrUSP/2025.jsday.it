@@ -92,7 +92,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: "The amazing speakers announced so far! Stay tuned for more!"
+  speaker_count_text: "The amazing lineup!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"

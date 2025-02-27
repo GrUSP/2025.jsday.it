@@ -45,6 +45,14 @@ silver:
 
 bronze:
   sponsor1:
+    name: "Cube"
+    logo_filename: "cube.svg"
+    site_url: "https://www.cube-digital.io/"
+  sponsor2:
+    name: "Elastic"
+    logo_filename: "elastic.svg"
+    site_url: "http://elastic.co"
+  sponsor3:
     name: "PostPickr"
     logo_filename: "postpickr.svg"
     site_url: "https://www.postpickr.com/"
