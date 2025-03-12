@@ -27,18 +27,22 @@ gold:
     site_url: "https://www.workwave.com/"
 silver:
   sponsor1:
+    name: "Colyseus"
+    logo_filename: "colyseus.svg"
+    site_url: "https://colyseus.io/"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor2:
+  sponsor3:
     name: "gellify"
     logo_filename: "gellify.svg"
     site_url: "https://gellify.com/italy/home/"
-  sponsor3:
+  sponsor4:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor4:
+  sponsor5:
     name: "WeRoad"
     logo_filename: "weroad.svg"
     site_url: "https://career.weroad.travel/"
