@@ -15,6 +15,10 @@ platinum:
     name: "nearform"
     logo_filename: "nearform .svg"
     site_url: "https://www.nearform.com"
+  sponsor2:
+    name: "Umana"
+    logo_filename: "umana.png"
+    site_url: "https://www.umana.it"
 
 gold:
   sponsor1:
