@@ -256,9 +256,9 @@ speaker_19: &MatteoCollina
   speaker_role: " Co-Founder/CTO @ Platformatic - Node.js TSC member - Fastify Lead Maintainer"
   speaker_bio: >
     I am the Co-Founder and CTO of Platformatic.dev. <br />
-    I am also a prolific Open Source author in the JavaScript ecosystem and modules I maintain are downloaded more than 12 billion times a year. 
-    <br />Previously I was Chief Software Architect at NearForm, the best professional services company in the JavaScript ecosystem. 
-    In 2014, I defended my Ph.D. thesis titled "Application Platforms for the Internet of Things". I am a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. 
+    I am also a prolific Open Source author in the JavaScript ecosystem and modules I maintain are downloaded more than 12 billion times a year.
+    <br />Previously I was Chief Software Architect at NearForm, the best professional services company in the JavaScript ecosystem.
+    In 2014, I defended my Ph.D. thesis titled "Application Platforms for the Internet of Things". I am a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http.
     <br />
     I am also the author of the fast logger Pino and of the Fastify web framework. I am a renowned international speaker after more than 60 conferences, including OpenJS World, Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. I am also co-author of the book "Node.js Cookbook, Third Edition" edited by Packt. In the summer I love sailing the Sirocco.
   speaker_github_url: "http://github.com/mcollina/"
@@ -454,7 +454,7 @@ speaker_32: &JoFranchetti
   speaker_in_speaker_lists: true
   speaker_name: "Jo Franchetti"
   speaker_pic_filename: "jo-franchetti.jpg"
-  speaker_role: "Developer Advocate @ Deno"
+  speaker_role: "MASTER OF CEREMONIES | Developer Advocate @ Deno"
   speaker_bio: >
     I am a DevRel Engineer at Deno. I am passionate about improving developer experience, teaching good use of JS and TS and building sparkly, wearable, internet connected tech. I mentor junior developers, advocate for mental health awareness and am devoted to improving the diversity and inclusivity of the tech industry
   speaker_github_url: "https://github.com/thisisjofrank"
@@ -468,7 +468,7 @@ speaker_33: &ArisMarkogiannakis
   speaker_in_speaker_lists: true
   speaker_name: "Aris Markogiannakis"
   speaker_pic_filename: "aris-markogiannakis.png"
-  speaker_role: "Senior Frontend Developer & CityJS Founder/Organiser"
+  speaker_role: "MASTER OF CEREMONIES | Senior Frontend Developer & CityJS Founder/Organiser"
   speaker_bio: >
     Aris is a Senior Frontend Developer, a Lecturer and a community Leader in London (and the world), JavaScript Community organiser and the creator of CityJS Conference. He has been teaching for the past 14 years at City, University of London and other institutions around London for the last couple years. Currently working for Foolproof/Zensar as a Teach Lead!
   speaker_github_url: ""
@@ -715,7 +715,7 @@ days:
         talk_description: >-
           As programmers we use abstractions all the time, but do we ever care about their costs? <br />
           And what does it even mean for an abstraction to have a *cost*? <br />
-          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br /> 
+          In this talk, we'll explore different abstractions available to JavaScript developers and their impact on developer productivity, team health, and application runtime behavior. <br />
           While we're at it, we'll also see how different languages available to frontend developers (hint: Rust and WASM-targeting languages) have radically different abstraction costs.
         talk_video_url:
         speakers:
@@ -934,12 +934,12 @@ days:
         end_datetime: 2025-04-08T15:25+02:00
         talk_title: "Privacy-first in-browser Generative AI web apps: offline-ready, future-proof, standards-based"
         talk_description: >-
-          Powerful generative AI features are quickly becoming a baseline in modern development.<br /> 
-          Potential blockers include privacy concerns, the need for a stable connection, and the costs 
-          associated with using or hosting models. However, we can now leverage generative AI directly 
-          in the browser on the user's device using emerging Web APIs like WebNN, combined with 
-          higher-level frameworks, for a better developer experience.<br /><br />In my session, I'll 
-          discuss the current state of in-browser ML and AI features, compare the main players, and 
+          Powerful generative AI features are quickly becoming a baseline in modern development.<br />
+          Potential blockers include privacy concerns, the need for a stable connection, and the costs
+          associated with using or hosting models. However, we can now leverage generative AI directly
+          in the browser on the user's device using emerging Web APIs like WebNN, combined with
+          higher-level frameworks, for a better developer experience.<br /><br />In my session, I'll
+          discuss the current state of in-browser ML and AI features, compare the main players, and
           show you how to start building an offline-ready, future-proof, standards-based web application.
         talk_video_url:
         speakers:
